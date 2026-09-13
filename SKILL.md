@@ -20,7 +20,7 @@ read_when:
 | `sunshaozhen-text-analysis`     | 文本怎么读深        | 文本关键点（一望而知 vs 一无所知）   |
 | `wang-rongsheng-reading-design` | 教什么、按什么顺序教    | 教学点 + 三个台阶            |
 | `xiaopeidong-qianqian-teaching` | 课堂上怎么落地       | 教学出口 + 主问题 + 朗读设计     |
-| `gaoyi-chinese-lesson-design`   | 交付格式与课件长什么样    | 情境任务链、板书、分层作业、**课件 PPT** |
+| `chinese-lesson-design`   | 交付格式与课件长什么样    | 情境任务链、板书、分层作业、**课件 PPT** |
 
 ---
 
@@ -35,8 +35,8 @@ read_when:
 | "这篇课文该教什么" / "教学点定在哪"                  | `sunshaozhen` + `wang-rongsheng` 两步                        |
 | "这个导入/提问怎么改"                           | 只调 `xiaopeidong-qianqian-teaching`                         |
 | "这篇属于哪个任务群" / "该达到水平几"                 | 只调 `gaozhong-yuwen-kebiao`                                 |
-| "帮我出个教案模板" / "只要格式"                    | 只调 `gaoyi-chinese-lesson-design`                           |
-| "把教案做成 PPT" / "要上课的课件" / "要课件"          | 只调 `gaoyi-chinese-lesson-design`（按其「配套 PPT 交付标准」；**先有教案再两阶段做 PPT**） |
+| "帮我出个教案模板" / "只要格式"                    | 只调 `chinese-lesson-design`                           |
+| "把教案做成 PPT" / "要上课的课件" / "要课件"          | 只调 `chinese-lesson-design`（按其「配套 PPT 交付标准」；**先有教案再两阶段做 PPT**） |
 | "这节课怎么测" / "出检测题" / "做评分量规"            | 只调 `gaozhong-yuwen-kebiao`（评价任务转化）+ `wang-rongsheng`（检测维度） |
 | "作文怎么批"                                | 调 `gaoyi-writing-coach`（不在本流程内）                            |
 
@@ -76,7 +76,7 @@ read_when:
 - 本次教学**对标学业质量水平几**（水平 2 = 必修要求；水平 4 供高考指向参考）
 - **核心素养四方面**中本课主要落哪两方面（不要四方面平均用力）
 
-**检查点**：任务群定位与 `gaoyi-chinese-lesson-design` 里的"单元—任务群对照表"是否一致？不一致以课标原文为准。
+**检查点**：任务群定位与 `chinese-lesson-design` 里的"单元—任务群对照表"是否一致？不一致以课标原文为准。
 
 **注意一处张力（必须向用户说明）**：课标以**任务群**组织课程，而 `wang-rongsheng-reading-design` 对"大单元/群文/项目化"持**审慎**立场。遇到单元整体设计需求时，不要假装没有分歧——据实说明两条思路，让用户选。这一步的产出是后面所有步骤的边界。
 
@@ -128,7 +128,7 @@ read_when:
 
 **5.1 教案**
 
-调 `gaoyi-chinese-lesson-design` 的输出格式，把前四步的产物装进去：
+调 `chinese-lesson-design` 的输出格式，把前四步的产物装进去：
 
 1. 教学定位
 2. 教学目标（3 条，分素养维度，用可观测行为动词）
@@ -144,7 +144,7 @@ read_when:
 
 **5.2 配套课件 PPT（默认交付，不是可选项）**
 
-教案定稿后，按 `gaoyi-chinese-lesson-design` 的「**配套 PPT 交付标准**」一节生成课件。**该标准不在本技能复述**——执行时直接加载那个技能的对应章节，六条硬标准、页数分配表、单页规则、动画与标题样式、两阶段流程都在那里，单点维护，避免改一处漏一处。
+教案定稿后，按 `chinese-lesson-design` 的「**配套 PPT 交付标准**」一节生成课件。**该标准不在本技能复述**——执行时直接加载那个技能的对应章节，六条硬标准、页数分配表、单页规则、动画与标题样式、两阶段流程都在那里，单点维护，避免改一处漏一处。
 
 此处只记三条**最容易违反**的硬约束：
 
@@ -197,12 +197,12 @@ read_when:
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------------------------------- |
 | **任务群 vs 单篇**                                                          | 课标按 18 个任务群组织；王荣生对单元/群文/项目化审慎    | 单元整体设计时两条路都给出，说清各自代价，由用户定                                |
 | **"教得深" vs "教得浅"**                                                     | 孙绍振要挖到深层矛盾；肖培东要"浅浅地教"            | 不矛盾：**深是备课的深度，浅是上课的姿态**。孙绍振的结论不必全进课堂，进课堂的是那个"学生自己走不通的问题" |
-| **`gaoyi-chinese-lesson-design` 与 `wang-rongsheng-reading-design` 重叠** | 前者"教学目标/重难点/课时安排"与后者"教学点/台阶"功能重叠 | 见下节分工                                                    |
+| **`chinese-lesson-design` 与 `wang-rongsheng-reading-design` 重叠** | 前者"教学目标/重难点/课时安排"与后者"教学点/台阶"功能重叠 | 见下节分工                                                    |
 
 **重叠技能的分工（本总控裁决）**：
 
 - `wang-rongsheng-reading-design`：**内容决策层**——教什么、为什么教这个、按什么顺序教
-- `gaoyi-chinese-lesson-design`：**格式与配套层**——学案、板书、情境任务链、分层作业、课时表
+- `chinese-lesson-design`：**格式与配套层**——学案、板书、情境任务链、分层作业、课时表
 - 走全流程时，先王荣生后格式；两者目标不一致时，**以王荣生为准**（有学理依据优于格式完整）
 
 ---
@@ -236,7 +236,7 @@ read_when:
 4. **教学点与台阶**（表格）
 5. **课堂设计**：出口 + 主问题 + 朗读 + 生成预案
 6. **完整教案**（按第 5 步 5.1 的九项）
-7. **配套课件 PPT**：**先交"页—内容"清单交用户确认，确认后才生成 `.pptx`**；课件与教案同源，标准见 `gaoyi-chinese-lesson-design` 的「配套 PPT 交付标准」
+7. **配套课件 PPT**：**先交"页—内容"清单交用户确认，确认后才生成 `.pptx`**；课件与教案同源，标准见 `chinese-lesson-design` 的「配套 PPT 交付标准」
 8. **检测任务与量规**：紧跟教案单独成节，含对标水平号与分档表现描述
 9. **分层参数**：重点校 / 普通校两个版本的差异点，单独一段说明
 
@@ -256,7 +256,7 @@ read_when:
 ## 六、参考
 
 - 各技能的详细内容，直接加载对应技能，本技能不复述
-- 交付格式模板见 `gaoyi-chinese-lesson-design` 与 `wang-rongsheng-reading-design` 的"交付格式"段
+- 交付格式模板见 `chinese-lesson-design` 与 `wang-rongsheng-reading-design` 的"交付格式"段
 - **检测与评价**：`wang-rongsheng-reading-design/references/detection-design.md`（测什么、怎么选题型）+ `gaozhong-yuwen-kebiao/references/ceping-renwu-zhuanhua.md`（水平转量表、量规模板）
-- **课件 PPT**：`gaoyi-chinese-lesson-design` 的「配套 PPT 交付标准」——六条硬标准、页数分配表、单页规则、动画与标题样式、两阶段流程、生成方式（`tencent-pptx` 生成，生成后改内容走 `tencent-local-office-edit`）。**本技能不复述该标准，执行时直接加载那一节。**
+- **课件 PPT**：`chinese-lesson-design` 的「配套 PPT 交付标准」——六条硬标准、页数分配表、单页规则、动画与标题样式、两阶段流程、生成方式（`tencent-pptx` 生成，生成后改内容走 `tencent-local-office-edit`）。**本技能不复述该标准，执行时直接加载那一节。**
 - 流程速查表见 `references/flow-checklist.md`
