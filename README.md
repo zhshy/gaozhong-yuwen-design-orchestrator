@@ -16,7 +16,7 @@
 | `sunshaozhen-text-analysis` | 文本怎么读深 |
 | `wang-rongsheng-reading-design` | 教什么、按什么顺序教 |
 | `xiaopeidong-qianqian-teaching` | 课堂上怎么落地 |
-| `gaoyi-chinese-lesson-design` | 交付格式长什么样 |
+| `chinese-lesson-design` | 交付格式长什么样 |
 
 ## 六步流程
 
@@ -26,7 +26,7 @@
 2 孙绍振   → 文本关键点 + 核心提问          读深
 3 王荣生   → 教学点 + 三个台阶              定教什么
 4 肖培东   → 教学出口 + 主问题 + 朗读       落课堂
-5 高一设计 → 九项成稿                       交出去
+5 语文设计 → 九项成稿                       交出去
 6 检测     → 评价任务 + 评分量规            闭环
 ```
 
@@ -49,7 +49,7 @@
 |---|---|
 | 任务群 vs 单篇 | 课标按任务群组织，王荣生对单元/群文/项目化审慎。遇单元整体设计时两条路并呈，由用户定 |
 | "教得深" vs "教得浅" | 不矛盾：深是备课的深度，浅是上课的姿态 |
-| 格式技能与王荣生重叠 | 内容决策层从王荣生，格式配套层从高一设计；冲突时以王荣生为准 |
+| 格式技能与王荣生重叠 | 内容决策层从王荣生，格式配套层从语文设计；冲突时以王荣生为准 |
 
 | 文件 | 内容 |
 |---|---|
@@ -64,7 +64,7 @@
 - <https://github.com/zhshy/sunshaozhen-text-analysis>
 - <https://github.com/zhshy/wang-rongsheng-reading-design>
 - <https://github.com/zhshy/xiaopeidong-qianqian-teaching>
-- <https://github.com/zhshy/gaoyi-chinese-lesson-design>
+- <https://github.com/zhshy/chinese-lesson-design>
 
 ## 安装
 
