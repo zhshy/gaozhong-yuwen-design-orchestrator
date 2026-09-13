@@ -1,0 +1,26 @@
+<Slide style={{ width: 1280, height: 720, padding: '20px 64px', background: '#F7F4EC', flexDirection: 'column' }}>
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'center' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+      <Box style={{ width: 6, height: 34, background: '#A8351A' }} />
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 34, fontWeight: 'bold', color: '#1A1A1A' }}>小结</Text>
+    </Box>
+  </Box>
+
+  <Box style={{ height: 540, flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+    <Text style={{ fontFamily: 'KaiTi', fontSize: 60, color: '#1A1A1A', lineHeight: 1.55, textAlign: 'center' }}>
+      他写的不是秋景，是<span style={{ fontWeight: 'bold', color: '#A8351A' }}>秋味</span>。<br />
+      味不在多，在<span style={{ fontWeight: 'bold' }}>足</span>。<br />
+      够味，才值得拿寿命去换。
+    </Text>
+  </Box>
+
+  <Box style={{ height: 40, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+      <Box style={{ width: 22, height: 22, background: '#A8351A', alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 13, fontWeight: 'bold', color: '#F7F4EC' }}>秋</Text>
+      </Box>
+      <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 14, color: '#3F4A55' }}>故都的秋 · 郁达夫</Text>
+    </Box>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 14, color: '#3F4A55' }}>14 / 15</Text>
+  </Box>
+</Slide>

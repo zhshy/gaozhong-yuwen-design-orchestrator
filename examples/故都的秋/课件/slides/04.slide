@@ -1,0 +1,75 @@
+<Slide style={{ width: 1280, height: 720, padding: '20px 64px', background: '#F7F4EC', flexDirection: 'column' }}>
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+      <Box style={{ width: 6, height: 34, background: '#A8351A' }} />
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 34, fontWeight: 'bold', color: '#1A1A1A' }}>任务链</Text>
+    </Box>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 18, color: '#3F4A55', letterSpacing: 1 }}>一步一步，走到答案</Text>
+  </Box>
+
+  <Box style={{ height: 540, flexDirection: 'row', gap: 32 }}>
+    <Box style={{
+      width: 340, height: 540, background: 'rgba(63,74,85,0.06)',
+      borderLeft: '4px solid #A8351A', padding: '40px 32px',
+      flexDirection: 'column', justifyContent: 'space-between',
+    }}>
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 56, fontWeight: 'bold', color: '#1A1A1A', lineHeight: 1.3 }}>四步</Text>
+      <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 26, color: '#3F4A55', lineHeight: 1.7 }}>
+        从反常处出发，<br />走到结论。
+      </Text>
+      <Box style={{ width: 48, height: 3, background: '#A8351A' }} />
+    </Box>
+
+    <Box style={{ flex: 1, height: 540, flexDirection: 'column', justifyContent: 'space-between' }}>
+      <Box style={{ flexDirection: 'row', alignItems: 'center', height: 110, background: 'rgba(63,74,85,0.06)', padding: '0 28px', gap: 22 }}>
+        <Box style={{ width: 56, height: 56, background: '#3F4A55', alignItems: 'center', justifyContent: 'center' }}>
+          <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, fontWeight: 'bold', color: '#F7F4EC' }}>01</Text>
+        </Box>
+        <Box>
+          <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 28, fontWeight: 'bold', color: '#1A1A1A' }}>找反常</Text>
+          <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 20, color: '#3F4A55', marginTop: 6 }}>三个「来得」</Text>
+        </Box>
+      </Box>
+
+      <Box style={{ flexDirection: 'row', alignItems: 'center', height: 110, background: 'rgba(63,74,85,0.06)', padding: '0 28px', gap: 22 }}>
+        <Box style={{ width: 56, height: 56, background: '#3F4A55', alignItems: 'center', justifyContent: 'center' }}>
+          <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, fontWeight: 'bold', color: '#F7F4EC' }}>02</Text>
+        </Box>
+        <Box>
+          <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 28, fontWeight: 'bold', color: '#1A1A1A' }}>找减法</Text>
+          <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 20, color: '#3F4A55', marginTop: 6 }}>色声味繁华，他减掉了什么</Text>
+        </Box>
+      </Box>
+
+      <Box style={{ flexDirection: 'row', alignItems: 'center', height: 110, background: 'rgba(63,74,85,0.06)', padding: '0 28px', gap: 22 }}>
+        <Box style={{ width: 56, height: 56, background: '#3F4A55', alignItems: 'center', justifyContent: 'center' }}>
+          <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, fontWeight: 'bold', color: '#F7F4EC' }}>03</Text>
+        </Box>
+        <Box>
+          <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 28, fontWeight: 'bold', color: '#1A1A1A' }}>解释为什么</Text>
+          <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 20, color: '#3F4A55', marginTop: 6 }}>最少，为什么最贵</Text>
+        </Box>
+      </Box>
+
+      <Box style={{ flexDirection: 'row', alignItems: 'center', height: 110, background: 'rgba(168,53,26,0.07)', padding: '0 28px', gap: 22 }}>
+        <Box style={{ width: 56, height: 56, background: '#A8351A', alignItems: 'center', justifyContent: 'center' }}>
+          <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, fontWeight: 'bold', color: '#F7F4EC' }}>04</Text>
+        </Box>
+        <Box>
+          <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 28, fontWeight: 'bold', color: '#A8351A' }}>写导语</Text>
+          <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 20, color: '#3F4A55', marginTop: 6 }}>把结论说给别人听</Text>
+        </Box>
+      </Box>
+    </Box>
+  </Box>
+
+  <Box style={{ height: 40, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+      <Box style={{ width: 22, height: 22, background: '#A8351A', alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 13, fontWeight: 'bold', color: '#F7F4EC' }}>秋</Text>
+      </Box>
+      <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 14, color: '#3F4A55' }}>故都的秋 · 郁达夫</Text>
+    </Box>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 14, color: '#3F4A55' }}>04 / 15</Text>
+  </Box>
+</Slide>

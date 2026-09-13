@@ -1,0 +1,76 @@
+<Slide style={{ width: 1280, height: 720, padding: '20px 64px', background: '#F7F4EC', flexDirection: 'column' }}>
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+      <Box style={{ width: 6, height: 34, background: '#A8351A' }} />
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 34, fontWeight: 'bold', color: '#1A1A1A' }}>板书</Text>
+    </Box>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 18, color: '#3F4A55', letterSpacing: 1 }}>全篇结构</Text>
+  </Box>
+
+  <Box style={{ height: 540, flexDirection: 'row', gap: 32 }}>
+    <Box style={{ width: 694, height: 540, position: 'relative', justifyContent: 'center' }}>
+      <Box style={{ width: 694, height: 480, position: 'relative' }}>
+        <Text style={{ position: 'absolute', left: 0, top: 4, width: 694, textAlign: 'center', fontFamily: 'KaiTi', fontSize: 46, fontWeight: 'bold', color: '#A8351A' }}>赶</Text>
+
+        <Box style={{ position: 'absolute', left: 346, top: 62, width: 2, height: 40, background: 'rgba(26,26,26,0.35)' }} />
+        <Box style={{ position: 'absolute', left: 97, top: 100, width: 500, height: 2, background: 'rgba(26,26,26,0.35)' }} />
+
+        <Box style={{ position: 'absolute', left: 158, top: 102, width: 2, height: 40, background: 'rgba(26,26,26,0.35)' }} />
+        <Box style={{ position: 'absolute', left: 283, top: 102, width: 2, height: 40, background: 'rgba(26,26,26,0.35)' }} />
+        <Box style={{ position: 'absolute', left: 408, top: 102, width: 2, height: 40, background: 'rgba(26,26,26,0.35)' }} />
+        <Box style={{ position: 'absolute', left: 533, top: 102, width: 2, height: 40, background: 'rgba(26,26,26,0.35)' }} />
+
+        <Box style={{ position: 'absolute', left: 102, top: 142, width: 115, height: 56, background: 'rgba(63,74,85,0.10)', alignItems: 'center', justifyContent: 'center' }}>
+          <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, fontWeight: 'bold', color: '#1A1A1A' }}>减色</Text>
+        </Box>
+        <Box style={{ position: 'absolute', left: 227, top: 142, width: 115, height: 56, background: 'rgba(63,74,85,0.10)', alignItems: 'center', justifyContent: 'center' }}>
+          <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, fontWeight: 'bold', color: '#1A1A1A' }}>减声</Text>
+        </Box>
+        <Box style={{ position: 'absolute', left: 352, top: 142, width: 115, height: 56, background: 'rgba(63,74,85,0.10)', alignItems: 'center', justifyContent: 'center' }}>
+          <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, fontWeight: 'bold', color: '#1A1A1A' }}>减味</Text>
+        </Box>
+        <Box style={{ position: 'absolute', left: 477, top: 142, width: 115, height: 56, background: 'rgba(63,74,85,0.10)', alignItems: 'center', justifyContent: 'center' }}>
+          <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 22, fontWeight: 'bold', color: '#1A1A1A' }}>减繁华</Text>
+        </Box>
+
+        <Box style={{ position: 'absolute', left: 158, top: 198, width: 2, height: 27, background: 'rgba(26,26,26,0.35)' }} />
+        <Box style={{ position: 'absolute', left: 283, top: 198, width: 2, height: 27, background: 'rgba(26,26,26,0.35)' }} />
+        <Box style={{ position: 'absolute', left: 408, top: 198, width: 2, height: 27, background: 'rgba(26,26,26,0.35)' }} />
+        <Box style={{ position: 'absolute', left: 533, top: 198, width: 2, height: 27, background: 'rgba(26,26,26,0.35)' }} />
+        <Box style={{ position: 'absolute', left: 97, top: 225, width: 500, height: 2, background: 'rgba(26,26,26,0.35)' }} />
+
+        <Box style={{ position: 'absolute', left: 346, top: 227, width: 2, height: 38, background: 'rgba(26,26,26,0.35)' }} />
+
+        <Box style={{ position: 'absolute', left: 197, top: 267, width: 300, height: 58, background: 'rgba(168,53,26,0.10)', borderLeft: '4px solid #A8351A', alignItems: 'center', justifyContent: 'center' }}>
+          <Text style={{ fontFamily: 'KaiTi', fontSize: 28, fontWeight: 'bold', color: '#A8351A' }}>一点点极微细</Text>
+        </Box>
+
+        <Box style={{ position: 'absolute', left: 346, top: 325, width: 2, height: 34, background: 'rgba(26,26,26,0.35)' }} />
+
+        <Box style={{ position: 'absolute', left: 272, top: 359, width: 150, height: 62, background: '#1A1A1A', alignItems: 'center', justifyContent: 'center' }}>
+          <Text style={{ fontFamily: 'KaiTi', fontSize: 34, fontWeight: 'bold', color: '#F7F4EC', letterSpacing: 4 }}>深味</Text>
+        </Box>
+      </Box>
+    </Box>
+
+    <Box style={{ width: 426, height: 540, flexDirection: 'column', justifyContent: 'center', gap: 26 }}>
+      <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 36, fontWeight: 'bold', color: '#1A1A1A', lineHeight: 1.55 }}>
+        从一处反常，<br />走到一个词。
+      </Text>
+      <Box style={{ width: 56, height: 3, background: '#A8351A' }} />
+      <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#3F4A55', lineHeight: 1.7 }}>
+        他减掉的是多余，<br />留下的是滋味。
+      </Text>
+    </Box>
+  </Box>
+
+  <Box style={{ height: 40, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+      <Box style={{ width: 22, height: 22, background: '#A8351A', alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 13, fontWeight: 'bold', color: '#F7F4EC' }}>秋</Text>
+      </Box>
+      <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 14, color: '#3F4A55' }}>故都的秋 · 郁达夫</Text>
+    </Box>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 14, color: '#3F4A55' }}>13 / 15</Text>
+  </Box>
+</Slide>

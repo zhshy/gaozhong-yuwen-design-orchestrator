@@ -1,0 +1,30 @@
+<Slide style={{ width: 1280, height: 720, padding: '20px 64px', background: '#F7F4EC', flexDirection: 'column' }}>
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'center' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+      <Box style={{ width: 6, height: 34, background: '#A8351A' }} />
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 34, fontWeight: 'bold', color: '#1A1A1A' }}>回到问题</Text>
+    </Box>
+  </Box>
+
+  <Box style={{ height: 540, flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+    <Text style={{ fontFamily: 'KaiTi', fontSize: 68, fontWeight: 'bold', color: '#1A1A1A', lineHeight: 1.45, textAlign: 'center' }}>
+      悲凉不是被承受的，<br />是被<span style={{ color: '#A8351A' }}>「饱尝」</span>的。
+    </Text>
+
+    <Box style={{ width: 96, height: 3, background: '#A8351A', marginTop: 36, marginBottom: 34 }} />
+
+    <Text style={{ fontFamily: 'KaiTi', fontSize: 26, color: '#3F4A55', lineHeight: 1.7, textAlign: 'center' }}>
+      这秋的深味，尤其是中国的秋的深味，<br />非要在北方，才感受得到底。
+    </Text>
+  </Box>
+
+  <Box style={{ height: 40, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+      <Box style={{ width: 22, height: 22, background: '#A8351A', alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 13, fontWeight: 'bold', color: '#F7F4EC' }}>秋</Text>
+      </Box>
+      <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 14, color: '#3F4A55' }}>故都的秋 · 郁达夫</Text>
+    </Box>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 14, color: '#3F4A55' }}>12 / 15</Text>
+  </Box>
+</Slide>

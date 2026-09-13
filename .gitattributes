@@ -1,0 +1,5 @@
+# 二进制文件不做行尾转换
+*.pptx binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary

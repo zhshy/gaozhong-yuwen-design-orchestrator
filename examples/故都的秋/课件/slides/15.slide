@@ -1,0 +1,78 @@
+<Slide style={{ width: 1280, height: 720, padding: '20px 64px', background: '#F7F4EC', flexDirection: 'column' }}>
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+      <Box style={{ width: 6, height: 34, background: '#A8351A' }} />
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 34, fontWeight: 'bold', color: '#1A1A1A' }}>作业</Text>
+    </Box>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 18, color: '#3F4A55', letterSpacing: 1 }}>任选其一，或多做</Text>
+  </Box>
+
+  <Box style={{ height: 540, flexDirection: 'row', gap: 24, alignItems: 'center' }}>
+    <Box style={{ width: 368, height: 340, background: 'rgba(63,74,85,0.06)', padding: '34px 30px', flexDirection: 'column', justifyContent: 'space-between' }}>
+      <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 14 }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 56, fontWeight: 'bold', color: '#A8351A', lineHeight: 1.0 }}>A</Text>
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 26, fontWeight: 'bold', color: '#1A1A1A' }}>巩固</Text>
+      </Box>
+
+      <Box style={{ width: '100%', height: 2, background: 'rgba(26,26,26,0.14)' }} />
+
+      <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 26, color: '#1A1A1A', lineHeight: 1.75, minHeight: 100 }}>
+        摘一处减法，<br />说清删掉了什么。
+      </Text>
+
+      <Box style={{ flexDirection: 'row' }}>
+        <Box style={{ border: '1px solid rgba(168,53,26,0.45)', padding: '6px 16px' }}>
+          <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 18, color: '#A8351A' }}>必做</Text>
+        </Box>
+      </Box>
+    </Box>
+
+    <Box style={{ width: 368, height: 340, background: 'rgba(63,74,85,0.06)', padding: '34px 30px', flexDirection: 'column', justifyContent: 'space-between' }}>
+      <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 14 }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 56, fontWeight: 'bold', color: '#A8351A', lineHeight: 1.0 }}>B</Text>
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 26, fontWeight: 'bold', color: '#1A1A1A' }}>进阶</Text>
+      </Box>
+
+      <Box style={{ width: '100%', height: 2, background: 'rgba(26,26,26,0.14)' }} />
+
+      <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 26, color: '#1A1A1A', lineHeight: 1.75, minHeight: 100 }}>
+        改写首段，删去一处，<br />说读感变化。
+      </Text>
+
+      <Box style={{ flexDirection: 'row' }}>
+        <Box style={{ border: '1px solid rgba(168,53,26,0.45)', padding: '6px 16px' }}>
+          <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 18, color: '#A8351A' }}>选做</Text>
+        </Box>
+      </Box>
+    </Box>
+
+    <Box style={{ width: 368, height: 340, background: 'rgba(63,74,85,0.06)', padding: '34px 30px', flexDirection: 'column', justifyContent: 'space-between' }}>
+      <Box style={{ flexDirection: 'row', alignItems: 'baseline', gap: 14 }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 56, fontWeight: 'bold', color: '#A8351A', lineHeight: 1.0 }}>C</Text>
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 26, fontWeight: 'bold', color: '#1A1A1A' }}>拓展</Text>
+      </Box>
+
+      <Box style={{ width: '100%', height: 2, background: 'rgba(26,26,26,0.14)' }} />
+
+      <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 26, color: '#1A1A1A', lineHeight: 1.75, minHeight: 100 }}>
+        与《荷塘月色》比<br />「逃」与「赶」。
+      </Text>
+
+      <Box style={{ flexDirection: 'row' }}>
+        <Box style={{ border: '1px solid rgba(168,53,26,0.45)', padding: '6px 16px' }}>
+          <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 18, color: '#A8351A' }}>挑战</Text>
+        </Box>
+      </Box>
+    </Box>
+  </Box>
+
+  <Box style={{ height: 40, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+      <Box style={{ width: 22, height: 22, background: '#A8351A', alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 13, fontWeight: 'bold', color: '#F7F4EC' }}>秋</Text>
+      </Box>
+      <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 14, color: '#3F4A55' }}>故都的秋 · 郁达夫</Text>
+    </Box>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 14, color: '#3F4A55' }}>15 / 15</Text>
+  </Box>
+</Slide>

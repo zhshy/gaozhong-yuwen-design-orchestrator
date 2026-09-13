@@ -1,0 +1,35 @@
+<Slide style={{ width: 1280, height: 720, padding: '20px 64px', background: '#F7F4EC', flexDirection: 'column' }}>
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+      <Box style={{ width: 6, height: 34, background: '#A8351A' }} />
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 34, fontWeight: 'bold', color: '#1A1A1A' }}>任务一 · 他「赶」的是什么</Text>
+    </Box>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 18, color: '#3F4A55', letterSpacing: 1 }}>01</Text>
+  </Box>
+
+  <Box style={{ height: 540, flexDirection: 'column', gap: 24 }}>
+    <Image src="assets/train_north.png" style={{ width: 1152, height: 300, objectFit: 'cover' }} />
+
+    <Box style={{
+      height: 216, background: 'rgba(63,74,85,0.06)', borderLeft: '4px solid #A8351A',
+      padding: '28px 32px', flexDirection: 'column', justifyContent: 'space-between',
+    }}>
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 30, color: '#1A1A1A', lineHeight: 1.6 }}>
+        可是啊，北国的秋，却特别地来得<span style={{ fontWeight: 'bold' }}>清</span>，来得<span style={{ fontWeight: 'bold' }}>静</span>，来得<span style={{ color: '#A8351A', fontWeight: 'bold' }}>悲凉</span>。
+      </Text>
+      <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 36, fontWeight: 'bold', color: '#1A1A1A', lineHeight: 1.5 }}>
+        杭州有秋，青岛有秋，他为什么还要「赶」？
+      </Text>
+    </Box>
+  </Box>
+
+  <Box style={{ height: 40, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+      <Box style={{ width: 22, height: 22, background: '#A8351A', alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 13, fontWeight: 'bold', color: '#F7F4EC' }}>秋</Text>
+      </Box>
+      <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 14, color: '#3F4A55' }}>故都的秋 · 郁达夫</Text>
+    </Box>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 14, color: '#3F4A55' }}>05 / 15</Text>
+  </Box>
+</Slide>
