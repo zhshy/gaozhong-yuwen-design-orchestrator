@@ -25,7 +25,7 @@ read_when:
 
 > **输出通道**：四份 Word 交付物由 `tencent-docx` 生成（本技能只规定"每份装什么、不装什么"，版式由该技能决定）；课件 `.pptx` 由 `tencent-pptx` 生成。两者都**不在**上面五个技能内。
 
-> **一处待办（如实交代，不假装已被覆盖）**：`chinese-lesson-design` 的输出格式目前只定义了教案九项，**没有**学案与说课稿的分节规范；五个底层技能里也没有任何一个定义过它们。本技能把四份交付物的分节规范放在 `references/deliverables-word.md` 作为临时落点。长期应由 `chinese-lesson-design` 作为格式权威接管这两节——那是一处独立仓库的改动，需另行评估。
+> **一处待办（如实交代，不假装已被覆盖）**：`chinese-lesson-design` 的输出格式目前只定义了教案九项，**没有**学案与说课稿的分节规范；五个底层技能里也没有任何一个定义过它们。本技能已把这两份的规范补齐，落在 `references/xuean-shuoke-spec.md`（含每条的校本或教研依据），但**它本该由格式权威承担**。长期应迁到 `chinese-lesson-design`——那是一处独立仓库的改动，需另行评估。迁移前，本节即这两份文件的格式依据。
 
 ---
 
@@ -259,7 +259,7 @@ read_when:
 **重叠技能的分工（本总控裁决）**：
 
 - `wang-rongsheng-reading-design`：**内容决策层**——教什么、为什么教这个、按什么顺序教
-- `chinese-lesson-design`：**格式与配套层**——教案九项格式、板书、情境任务链、分层作业、课时表、课件 PPT 交付标准（**学案与说课稿的分节规范尚未在其中定义**，暂由本技能的 `references/deliverables-word.md` 承担，见开头的"一处待办"）
+- `chinese-lesson-design`：**格式与配套层**——教案九项格式、板书、情境任务链、分层作业、课时表、课件 PPT 交付标准（**学案与说课稿的分节规范尚未在其中定义**，暂由本技能的 `references/xuean-shuoke-spec.md` 承担，见开头的"一处待办"）
 - 走全流程时，先王荣生后格式；两者目标不一致时，**以王荣生为准**（有学理依据优于格式完整）
 
 ---
@@ -327,6 +327,7 @@ read_when:
 - 各技能的详细内容，直接加载对应技能，本技能不复述
 - 交付格式模板见 `chinese-lesson-design` 与 `wang-rongsheng-reading-design` 的"交付格式"段（注意：`chinese-lesson-design` 目前**只有教案九项**，未定义学案与说课稿）
 - **四份 Word 交付物**：`references/deliverables-word.md`——四份文件的分节规范（装什么 / 绝对不装什么）、Word 版式与落盘规范、生成流程（`tencent-docx` 的 `full_pipeline`）、四份互查清单、常见坑、写作禁忌。**本技能不复述该细则，执行第 7.1 步时直接加载。**
+- **学案与说课稿的体例依据**：`references/xuean-shuoke-spec.md`——两份文件的分节表、语文分体裁栏目差异、量化约束（学案 ≤ 30 分钟 / 说课稿字数按时长倒推）、红线与检查清单，**每条附校本或教研来源与可信度分级**。写这两份前先读它，不要凭印象编栏目。
 - **文档生成通道**：Word 走 `tencent-docx`，课件走 `tencent-pptx`。两者都是外部技能，本技能只规定"每份装什么、不装什么"，版式与工具选择由它们决定
 - **检测与评价**：`wang-rongsheng-reading-design/references/detection-design.md`（测什么、怎么选题型）+ `gaozhong-yuwen-kebiao/references/ceping-renwu-zhuanhua.md`（水平转量表、量规模板）
 - **课件 PPT**：`chinese-lesson-design` 的「配套 PPT 交付标准」——七条硬标准、页数分配表、单页规则、**配图规范（影像蒸馏：以课文景物描写为源，蒸馏生成，插在留白充足的页面；作者介绍页配写意形象）**、动画与标题样式、两阶段流程、生成方式（`tencent-pptx` 生成，生成后改内容走 `tencent-local-office-edit`）。**本技能不复述该标准，执行时直接加载那一节。**
