@@ -1,0 +1,16 @@
+<Slide style={{ width: 1280, height: 720, padding: '20px 64px', background: '#F4F1E9', flexDirection: 'column', justifyContent: 'center', position: 'relative' }}>
+  <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, marginBottom: 48 }}>
+    <Box style={{ width: 6, height: 36, background: '#9C2E22' }} />
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 26, color: '#4B463F', letterSpacing: 6 }}>本课主问题</Text>
+  </Box>
+
+  <Text style={{ fontFamily: 'KaiTi', fontSize: 56, fontWeight: 'bold', color: '#1C1A17', lineHeight: 1.6 }}>
+    谈「学」却只写<span style={{ color: '#4B463F' }}>自然物象</span>——<br />
+    这样的「劝」，为什么<span style={{ color: '#9C2E22' }}>更有说服力</span>？
+  </Text>
+
+  <Box style={{ width: 120, height: 5, background: '#9C2E22', marginTop: 54 }} />
+
+  <Text style={{ position: 'absolute', left: 64, bottom: 40, fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>劝学 · 荀子</Text>
+  <Text style={{ position: 'absolute', right: 64, bottom: 40, fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>04 / 17</Text>
+</Slide>
