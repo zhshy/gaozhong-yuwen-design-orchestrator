@@ -2,6 +2,7 @@
 name: gaozhong-yuwen-design-orchestrator
 description: 高中语文（统编版）备课总控。接到完整备课任务后，判断该调哪几个技能、按什么顺序调、每一步交出什么、交接时检查什么，并把成果分别生成四份 Word 交付物（教学设计、教案、学案、说课稿），另配课件 PPT 与检测量规。当用户要设计一节课、做单元整体设计、备公开课，或需要把课标依据、文本解读、教学点、课堂设计、教学设计、教案、学案、说课稿、课件 PPT、检测串成完整流程，或要把教学设计成果导成 Word 文档时使用。
 agent_created: true
+version: 1.8.0
 read_when:
   - 设计一节课、单元整体设计、公开课备课
   - 备课流程编排、该调哪个技能、多技能如何接力
@@ -334,3 +335,4 @@ read_when:
 - **检测与评价**：`wang-rongsheng-reading-design/references/detection-design.md`（测什么、怎么选题型）+ `gaozhong-yuwen-kebiao/references/ceping-renwu-zhuanhua.md`（水平转量表、量规模板）
 - **课件 PPT**：`chinese-lesson-design` 的「配套 PPT 交付标准」——七条硬标准、页数分配表、单页规则、**配图规范（影像蒸馏：以课文景物描写为源，蒸馏生成，插在留白充足的页面；作者介绍页配写意形象）**、动画与标题样式、两阶段流程、生成方式（`tencent-pptx` 生成，生成后改内容走 `tencent-local-office-edit`）。**本技能不复述该标准，执行时直接加载那一节。**
 - 流程速查表见 `references/flow-checklist.md`
+- **版本与变更记录**：`CHANGELOG.md`——按语义化版本记录每次改动。**当前版本就是本文件 frontmatter 的 `version:` 字段**，每个版本对应仓库中的一个 git 标签（`v1.0.0` …）。引用本技能时请带上版本号，不同版本的流程与红线数量不同。

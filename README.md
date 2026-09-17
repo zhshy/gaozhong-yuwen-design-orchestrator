@@ -71,7 +71,8 @@
 
 | 文件 | 内容 |
 |---|---|
-| `SKILL.md` | 分流表、七步流程、四份 Word 交付的准入与顺序、冲突裁决、十六条红线、呈现方式 |
+| `SKILL.md` | 分流表、七步流程、四份 Word 交付的准入与顺序、冲突裁决、十六条红线、呈现方式；frontmatter 含当前 `version:` |
+| `CHANGELOG.md` | 逐版本变更记录（语义化版本）；每个版本对应一个 git 标签 |
 | `references/flow-checklist.md` | 一页速查：技能选择树、流程交接物、四个卡口、分层检查清单（含文档层） |
 | `references/deliverables-word.md` | **四份 Word 交付物规范**：每份装什么／绝对不装什么、Word 版式与落盘规范、生成流程、四份互查清单、常见坑 |
 | `references/xuean-shuoke-spec.md` | **学案与说课稿的体例依据**：分节表、语文分体裁栏目差异、量化约束、红线与检查清单，**每条附校本／教研来源与可信度分级** |
@@ -120,6 +121,25 @@ git clone https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 - **macOS / Linux**：`~/.workbuddy/skills/`
 
 重启 WorkBuddy 后生效。
+
+## 版本与更新
+
+- **版本号**遵循语义化版本，写在 [`SKILL.md`](SKILL.md) 的 frontmatter `version:` 字段；**每个版本对应一个 git 标签**（`v1.0.0` …），逐版变更见 [`CHANGELOG.md`](CHANGELOG.md)。
+- **版本号含义**：主版本＝目录结构或不兼容的流程改动；次版本＝新增规范 / 新增 `references/` / 新增红线；修订版＝文字订正与表述统一。
+- **按版本安装**（可复现的取版方式）：
+
+```bash
+# 取最新
+git clone https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
+# 取指定版本
+git clone --branch v1.7.0 --depth 1 \
+  https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
+# 不装 git，也可直接取该版本的 tar 包
+curl -LO https://codeload.github.com/zhshy/gaozhong-yuwen-design-orchestrator/tar.gz/refs/tags/v1.7.0
+```
+
+- **核对手上副本的版本**：装进 `~/.workbuddy/skills/` 的副本不带 `.git`，看 [`SKILL.md`](SKILL.md) 前几行的 `version:` 字段即为当前版本；若取的是 git 检出，用 `git -C <repo> describe --tags`。
+- **引用时带上版本号**：本技能与五个底层技能、以及生成通道 `tencent-docx` / `tencent-pptx` 配套使用，建议记成"总控 v1.8.0 + 课标库 v2.0.0"这样的组合——**不同版本的流程步数与红线条数不同**，混用会产出不一致的结果。
 
 ## 什么是 Skill
 
