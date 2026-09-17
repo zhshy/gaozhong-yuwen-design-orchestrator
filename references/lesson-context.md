@@ -20,11 +20,14 @@ LessonContext 把这一句变成**逐字段的状态标记**：卡上没有裸�
 
 ---
 
-## 二、字段表（七组）
+## 二、字段表（路由字段 ＋ 七组 ＋ 精品课第八组）
 
 内部用 YAML 承载（便于下游按字段取值），**对用户呈现时一律换成第三节的表格**——不给用户看 YAML。
 
 ```yaml
+delivery_mode:        # ★ 路由字段：normal_lesson（默认）/ quality_course
+                      #   决定走七步还是九步，第 0 步必须定下来
+                      #   注意：这不是 lesson_type.mode（讲读/自读/活动），两者互不相干
 lesson:
   title:            # 篇目名，如《劝学》
   author:
@@ -36,7 +39,7 @@ lesson:
   unit:             # 单元，如 第六单元
 lesson_type:
   category:         # 单篇精读 / 单元整体 / 群文阅读 / 复习课 / 作文讲评
-  mode:             # 讲读 / 自读 / 活动
+  mode:             # 讲读 / 自读 / 活动（≠ delivery_mode）
   subtype:          # 具体课型名（可选）
 duration:
   sessions:         # 课时数
@@ -56,11 +59,25 @@ teaching_context:
 constraints:
   homework_minutes: # 作业时长上限
   multimedia:       # 多媒体条件（有无投影 / 能否放视频）
+submission:         # ★ 第八组：仅 delivery_mode = quality_course 时必填
+  year:             # 年度，如 2026
+  category:         # 类别（本技能只做"学科课程类"）
+  stage:            # 学段＝高中
+  subject:          # 学科＝语文
+  platform:         # 报送平台
+  official_title:   # ★ 平台节点原文，必须逐字复制，不许凭记忆写
+  textbook_edition: # 出版社 / 版次 / 册次
 ```
+
+> ⚠️ **第八组 `submission` 不是"顺手多加的一栏"**，而是精品课模式的**输入前提**。
+> 它填完**不等于节点就锁定了**——第 0.5 步还要按五道核验逐项判定，见 [`jpk-high-school-chinese/catalog-node.md`](jpk-high-school-chinese/catalog-node.md)。
+> 普通模式（`normal_lesson`）下这一组**整体不存在**：不要因为"反正用不上"就先填上，**填了就进了母本**，会污染普通备课的交付物。
 
 **必问四项**：`lesson.title`（或 `unit`）、`lesson_type.category`、`duration.sessions`、`students.school_level`。
 
 **可缺省**：`teacher.preferred_style`、`constraints.*`、`lesson_type.mode` / `subtype`、`students.class_size`。
+
+**`delivery_mode` 不属"可缺省"**——它必须是显式结论（从请求判断，判不准就问用户），因为整条流程的长度由它决定。
 
 **高发风险字段**（这三处最容易出编造，标记时格外留神）：
 
@@ -182,7 +199,10 @@ constraints:
 
 ## 八、第 0 步检查清单
 
+- [ ] **`delivery_mode` 是否已显式定下**（`normal_lesson` / `quality_course`），且**没有混用** `lesson_type.mode`
 - [ ] 七组字段是否都已列出（缺省项也注明"可缺省"，不是不列）
+- [ ] **若 `delivery_mode = quality_course`**：第八组 `submission` 是否七个字段都填了，`official_title` 是否是**平台原文逐字复制**的
+- [ ] **若 `delivery_mode = normal_lesson`**：第八组是否**整体未填**（填了就是污染）
 - [ ] 每个字段是否都带四态标记之一（**无裸字段**）
 - [ ] 每个 `inferred` 是否写了推定依据
 - [ ] `lesson.textbook` / `duration.sessions` 两类高风险字段是否严格未用 `inferred`

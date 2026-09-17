@@ -112,6 +112,52 @@
 
 不是所有请求都该走完整流程——上来就跑七步是形式主义。
 
+## 两种交付模式
+
+第 0 步的 **`delivery_mode`** 字段决定走哪条流程（注意：**不是** `lesson_type.mode`，那个是讲读／自读／活动）：
+
+| `delivery_mode` | 触发 | 流程 | 交付 |
+|---|---|---|---|
+| `normal_lesson`（默认） | "设计一节课""备公开课""单元整体设计" | **七步** | 四份 Word ＋ 课件 PPT |
+| `quality_course` | 出现"**报／参评／提交／五件套／微课／目录节点**"任一词 | **九步** | **四件套**（教学设计／学习任务单／课件／作业练习）＋ 微课运行稿 |
+
+**判断口诀**：出现"**报／参评／提交／五件套／微课／目录节点**"任一词 → 精品课；只说"设计一节课" → 普通模式。
+
+### 精品课模式（`quality_course`）：学科课程类
+
+给"基础教育精品课"遴选用的模式。**不改教学理论，只让同一份教学设计变成可提交的作品包**——五个底层技能在本模式下**一律不改**。
+
+**只做"学科课程类"一类**。特殊教育／实验教学／人工智能教育／阅读课／科技教育五类**不覆盖**。
+
+九步 ＝ 在原七步上**只插两步**：
+
+```
+0 确认输入（＋第八组 submission）
+0.5 官方节点锁        ← 新增：不过即停，不做降级
+1–6 定依据 → 读文本 → 定教学点 → 落课堂 → 母本 → 教学评一致审计
+    ★ CONTENT_FREEZE（第一次冻结）
+7 四件套派生          7.1 教学设计 / 7.2 学习任务单 / 7.3 作业练习 / 7.4 课件 / 7.5 微课运行稿
+8 材料一致性 ＋ JPK-01～10 门禁 ＋ 交付报告      ← 新增
+    ★ SUBMISSION_FREEZE（第二次冻结）
+```
+
+**四条核心机制**：
+
+| 机制 | 一句话 | 依据 |
+|---|---|---|
+| **官方节点锁** | 节点名称须与平台**字符串全等**，不许用相似度判定；拿不到证据**就停** | 官方"原则上同一目录节点只推荐 1 节" |
+| **教学评一致** | `OBJ→TP→ACT→EVID→AS` 必须闭环，缺任一即 BLOCK | 本技能最高优先级门禁 JPK-04 |
+| **五件套同源** | 五件全部从**同一份冻结母本**派生；派生后另查一次一致性 | 两个事实源必然数据不一致 |
+| **技术适切** | 判断的不是"用了多少技术"，而是"技术解决了什么教学问题" | 官方"融合应用现代信息技术"，定位是**服务教学、不是技术展示** |
+
+**明确不做**（属"作品制作与合规"，由录制与提交环节承担）：
+
+- ❌ **不规定视频制作规范**（时长／分辨率／片头／字幕／体积／命名）——本技能不产出视频文件
+- ❌ **不做原创性与版权材料清单**——与"这节课怎么教"无关
+- ❌ 不生成 `.mp4`、不预测得分、不估获奖概率
+
+规格见 `references/jpk-high-school-chinese/`（11 个文件），**执行前先读该子目录的 `README.md`**。
+
 ## 三处已知冲突及处理
 
 | 冲突 | 处理 |
@@ -124,14 +170,15 @@
 
 | 文件 | 内容 |
 |---|---|
-| `SKILL.md` | 分流表、七步流程、四份 Word 交付的准入与顺序、冲突裁决、十六条红线、呈现方式；frontmatter 含当前 `version:` |
+| `SKILL.md` | 分流表、**两种交付模式**、七步流程（＋精品课九步）、四份 Word 交付的准入与顺序、冲突裁决、**二十六条红线**（1–16 通用 ＋ 17–26 精品课）、呈现方式；frontmatter 含当前 `version:` 与 `modes:` |
 | `CHANGELOG.md` | 逐版本变更记录（语义化版本）；每个版本对应一个 git 标签 |
-| `references/flow-checklist.md` | 一页速查：技能选择树、流程交接物、四个卡口、分层检查清单（含输入层与文档层） |
-| `references/lesson-context.md` | **第 0 步课情卡规范**：七组字段、四态判定决策树、呈现表格模板、交付话术、六种常见违规；红线 7 的落地形态 |
-| `references/time-budget.md` | **课堂时间预算模型**：六类时间项与计提规则、"汇报 × 组数"的算法、母本第五节表的填法与示例、两条硬约束、认知负荷（可选） |
+| `references/flow-checklist.md` | 一页速查：技能选择树、流程交接物（含**精品课九步**）、四个卡口、分层检查清单（含输入层与文档层） |
+| `references/lesson-context.md` | **第 0 步课情卡规范**：`delivery_mode` 路由字段 ＋ 七组字段 ＋ **精品课第八组 `submission`**、四态判定决策树、呈现表格模板、交付话术、六种常见违规；红线 7 的落地形态 |
+| `references/time-budget.md` | **课堂时间预算模型**：**七列时间项**（六类必计项 ＋ 教师讲授·齐读·机动）与计提规则、"汇报 × 组数"的算法、母本第五节表的填法与示例、两条硬约束、认知负荷（可选） |
 | `references/differentiation.md` | **教学方向 / 学情 / 教师画像**：三个方向的一句话差异（提问旁备注用）、3×3 矩阵与收缩规则、教师画像字段与应用边界 |
 | `references/deliverables-word.md` | **四份 Word 交付物规范**：每份装什么／绝对不装什么、Word 版式与落盘规范、生成流程、四份互查清单、常见坑 |
 | `references/xuean-shuoke-spec.md` | **学案与说课稿的体例依据**：分节表、语文分体裁栏目差异、量化约束、红线与检查清单，**每条附校本／教研来源与可信度分级** |
+| `references/jpk-high-school-chinese/` | **学科课程类精品课模式规范**（11 个文件）：节点锁、依据链与教学评一致、技术适切、微课运行稿、学习任务单、作业练习、材料一致性、JPK-01～10 门禁、提交终检；年度政策单独成文件便于逐年更新 |
 
 ## 示例
 
@@ -146,6 +193,23 @@
 | 教学设计 · 母本直排 | `examples/劝学/劝学_教学设计.docx` |
 | 课件成品 · 17 页 · 投给学生用 | `examples/劝学/课件/劝学.pptx` |
 | 课件源工程（叙事稿／设计稿／逐页源文件／影像蒸馏配图） | `examples/劝学/课件/` |
+
+同一篇《劝学》另有一份**精品课模式**的完整记录，用来证明"**同一篇课文、两种交付模式**"：
+
+| 内容 | 文件 |
+|---|---|
+| 申报信息（年度／类别／学段学科／教材／年级） | `examples/劝学/quality-course/00-submission-context.md` |
+| 节点卡与核验结论 | `examples/劝学/quality-course/01-catalog-node.md` |
+| MasterPlan（逻辑体，＝母本） | `examples/劝学/quality-course/02-master-plan.md` |
+| 教学评一致性矩阵（OBJ→TP→ACT→EVID→AS ＋ 十列） | `examples/劝学/quality-course/03-alignment-matrix.md` |
+| 提交件 ① 教学设计（精品课版） | `examples/劝学/quality-course/04-teaching-design.md` |
+| 提交件 ② 学习任务单 | `examples/劝学/quality-course/05-task-sheet.md` |
+| 提交件 ④ 作业练习 | `examples/劝学/quality-course/06-homework.md` |
+| 提交件 ③ 课件（页—内容清单） | `examples/劝学/quality-course/07-ppt-plan.md` |
+| 提交件 ⑤ 微课运行稿 | `examples/劝学/quality-course/08-video-runtime.md` |
+| 门禁结论与交付报告 | `examples/劝学/quality-course/09-quality-report.md` |
+
+> 精品课示例**要验证的不是"教案好不好"，而是"为什么以这个教学点作为精品课核心"**——即目标 → 教学点 → 活动 → 产出 → 证据 → 评价这一条链能不能一路指到底。它是**教学设计侧**的记录，不含视频成片与技术参数。
 
 **输入参数**：单篇精读 ｜ 3 课时 ｜ 重点校为主版本 ｜ 课标按 2025 修订版三级水平（目标线＝水平二）。
 
@@ -188,14 +252,15 @@ git clone https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 取最新
 git clone https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 取指定版本
-git clone --branch v1.10.0 --depth 1 \
+git clone --branch v2.0.0 --depth 1 \
   https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 不装 git，也可直接取该版本的 tar 包
-curl -LO https://codeload.github.com/zhshy/gaozhong-yuwen-design-orchestrator/tar.gz/refs/tags/v1.10.0
+curl -LO https://codeload.github.com/zhshy/gaozhong-yuwen-design-orchestrator/tar.gz/refs/tags/v2.0.0
 ```
 
+- **关于 `v2.0.0` 这个主版本号**：它标记的是**交付形态的一次扩充**（从"四份 Word ＋ 课件"扩为"另一条独立的精品课交付链"），不是普通模式的行为改变。**`normal_lesson` 路径逐字向后兼容**——七步流程、四份 Word、课件两阶段、红线 1–16 **一字未动**；历史调用结果不受影响。仍按 `v1.11.0` 使用的用户在升级前无需改任何习惯。
 - **核对手上副本的版本**：装进 `~/.workbuddy/skills/` 的副本不带 `.git`，看 [`SKILL.md`](SKILL.md) 前几行的 `version:` 字段即为当前版本；若取的是 git 检出，用 `git -C <repo> describe --tags`。
-- **引用时带上版本号**：本技能与五个底层技能、以及生成通道 `tencent-docx` / `tencent-pptx` 配套使用，建议记成"总控 v1.10.0 + 课标库 v2.0.0"这样的组合——**不同版本的流程步数与红线条数不同**，混用会产出不一致的结果。
+- **引用时带上版本号**：本技能与五个底层技能、以及生成通道 `tencent-docx` / `tencent-pptx` 配套使用，建议记成"总控 v2.0.0 + 课标库 v2.0.0"这样的组合——**不同版本的流程步数与红线条数不同**（`v1.x` 为 16 条、`v2.0.0` 起为 26 条），混用会产出不一致的结果。
 
 ## 什么是 Skill
 
