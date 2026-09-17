@@ -28,6 +28,7 @@ LessonContext 把这一句变成**逐字段的状态标记**：卡上没有裸�
 lesson:
   title:            # 篇目名，如《劝学》
   author:
+  text:             # 课文原文的核对状态（用书印次 / 字形 / 篇目修订）——原文类字段只能 confirmed 或 needs_verification
   genre:            # 文体，如说理散文 / 近体诗 / 新闻通讯
   textbook:         # 教材版本，如 统编版
   grade:            # 必修 / 选择性必修
@@ -65,6 +66,7 @@ constraints:
 
 | 字段 | 为什么危险 |
 |---|---|
+| `lesson.text` | **原文**（用书印次、异体字形、篇目修订）——最难自查、后果最重的一类；拿不准一律 `needs_verification`，并在母本与四份 Word 里保留"待核对"（《劝学》示例的两处即此类） |
 | `lesson.textbook` / `grade` / `semester` | 用户常只说篇目，版本靠"默认"顶替——默认值必须标 `inferred` 并写出依据 |
 | `duration.sessions` / `minutes_per_session` | 课时数直接决定课表与台阶分配，编一个数会让整份母本从头错到尾 |
 | `students.prior_knowledge` / `known` / `difficulties` | 学情最容易被"想当然"——没有依据的学情描述是第 3 步"备两头"的定时炸弹 |
