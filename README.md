@@ -21,7 +21,7 @@
 ## 七步流程
 
 ```
-0 确认输入（篇目/课型/课时/学情/交付取舍）
+0 课情卡   → LessonContext（七组字段，逐字段标四态）   定输入
 1 课标     → 任务群 + 水平 + 素养落点      定边界
 2 孙绍振   → 文本关键点 + 核心提问          读深
 3 王荣生   → 教学点 + 三个台阶              定教什么
@@ -32,6 +32,23 @@
 ```
 
 **为什么是七步**：五份成果同源。`教学设计` 是母本，`教案`／`学案`／`说课稿`／`课件` 全部由它派生；而母本要等第 6 步的检测与量规回填后才完整——所以派生交付必须排在检测之后。把 Word 生成挤进第 5 步，就会出现"母本还没齐、四份文档已经旧了一版"的返工。
+
+## 课情卡（LessonContext，第 0 步）
+
+第 0 步的产出不是"几问几答"，而是一张结构化课情卡：七组字段（课文 / 课型 / 课时 / 学情 / 教师 / 教学语境 / 约束），**每个字段都带一个状态标记**——
+
+| 状态 | 含义 | 对外归入 |
+|---|---|---|
+| `confirmed` | 用户明确说了 | —— |
+| `inferred` | 用户没说，但可从已有信息推定（须写明依据） | 「请核」 |
+| `missing` | 用户没说，且推不出来 | 「缺失项」 |
+| `needs_verification` | 我方记得但拿不准（原文语句、课时数、教材版本年份） | 「待核对」 |
+
+这是**红线 7「不编造原文和课时数」的落地形态**：一句话的旧约束升级为逐字段的状态标记，**填了不标状态就等于编造**。尤其地，凡涉及**原文文字 / 课时数 / 教材版本年份**三类，**禁止标 `inferred`**——这三类错了会渗透到母本与每一份文档，只能由用户确认或查原文补上。
+
+课情卡在四处被下游用到：母本开头回显（`missing` 与 `needs_verification` 单列成「待核对事项」）、四份 Word 的页眉、第 3 步「备两头」的学生疑难处、第 7 步的一致性自检基准。
+
+细则（判定决策树、呈现表格模板、交付话术、六种常见违规）见 [`references/lesson-context.md`](references/lesson-context.md)。
 
 ## 四份 Word 交付物
 
@@ -73,7 +90,8 @@
 |---|---|
 | `SKILL.md` | 分流表、七步流程、四份 Word 交付的准入与顺序、冲突裁决、十六条红线、呈现方式；frontmatter 含当前 `version:` |
 | `CHANGELOG.md` | 逐版本变更记录（语义化版本）；每个版本对应一个 git 标签 |
-| `references/flow-checklist.md` | 一页速查：技能选择树、流程交接物、四个卡口、分层检查清单（含文档层） |
+| `references/flow-checklist.md` | 一页速查：技能选择树、流程交接物、四个卡口、分层检查清单（含输入层与文档层） |
+| `references/lesson-context.md` | **第 0 步课情卡规范**：七组字段、四态判定决策树、呈现表格模板、交付话术、六种常见违规；红线 7 的落地形态 |
 | `references/deliverables-word.md` | **四份 Word 交付物规范**：每份装什么／绝对不装什么、Word 版式与落盘规范、生成流程、四份互查清单、常见坑 |
 | `references/xuean-shuoke-spec.md` | **学案与说课稿的体例依据**：分节表、语文分体裁栏目差异、量化约束、红线与检查清单，**每条附校本／教研来源与可信度分级** |
 
@@ -132,14 +150,14 @@ git clone https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 取最新
 git clone https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 取指定版本
-git clone --branch v1.7.0 --depth 1 \
+git clone --branch v1.9.0 --depth 1 \
   https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 不装 git，也可直接取该版本的 tar 包
-curl -LO https://codeload.github.com/zhshy/gaozhong-yuwen-design-orchestrator/tar.gz/refs/tags/v1.7.0
+curl -LO https://codeload.github.com/zhshy/gaozhong-yuwen-design-orchestrator/tar.gz/refs/tags/v1.9.0
 ```
 
 - **核对手上副本的版本**：装进 `~/.workbuddy/skills/` 的副本不带 `.git`，看 [`SKILL.md`](SKILL.md) 前几行的 `version:` 字段即为当前版本；若取的是 git 检出，用 `git -C <repo> describe --tags`。
-- **引用时带上版本号**：本技能与五个底层技能、以及生成通道 `tencent-docx` / `tencent-pptx` 配套使用，建议记成"总控 v1.8.0 + 课标库 v2.0.0"这样的组合——**不同版本的流程步数与红线条数不同**，混用会产出不一致的结果。
+- **引用时带上版本号**：本技能与五个底层技能、以及生成通道 `tencent-docx` / `tencent-pptx` 配套使用，建议记成"总控 v1.9.0 + 课标库 v2.0.0"这样的组合——**不同版本的流程步数与红线条数不同**，混用会产出不一致的结果。
 
 ## 什么是 Skill
 
