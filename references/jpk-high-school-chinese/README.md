@@ -1,7 +1,7 @@
 # 学科课程类精品课｜子目录导航
 
-本子目录只服务**一个模式**：`quality_course`（学科课程类精品课）。
-普通备课模式（`normal_lesson`）**不读这里任何文件**——它的规格在 `references/` 上一层。
+本子目录只服务**一个模式**：`精品课`（学科课程类精品课）。
+普通备课模式（`普通备课`）**不读这里任何文件**——它的规格在 `references/` 上一层。
 
 ---
 
@@ -28,15 +28,15 @@
 | 用户说要报／参评精品课，**还没定稿前** | `2026-rules.md` | 先弄清今年这个类别的材料清单与节点规则 |
 | **第 0.5 步开始前** | `catalog-node.md` | 节点核验是本模式唯一不做降级的一步，先读再动手 |
 | 第 1 步"定依据" | 上一层 `../lesson-context.md` ＋ 本目录 `alignment.md`（仅"依据链"一节） | 依据链前移：节点→教材→单元→任务群→水平→素养 |
-| 第 6 步"评价与一致性审计" | `alignment.md` | `OBJ→TP→ACT→EVID→AS` 闭环与十列矩阵 |
+| 第 6 步"评价与一致性审计" | `alignment.md` | `目标→教学点→活动→证据→评价` 闭环与十列矩阵 |
 | 第 7.1 步（教学设计派生） | 上一层 `../deliverables-word.md` | 四份 Word 的版式与分节规范不在本目录复述 |
 | 第 7.2 步（学习任务单） | `task-sheet.md` | 八节结构、任务四项必填、禁装清单 |
 | 第 7.3 步（作业练习） | `homework.md` | 检查优先级顺序（目标回指优先于分层） |
 | 第 7.4 步（课件） | 上层 `chinese-lesson-design` 的「配套 PPT 交付标准」 | 课件规范单点维护在那里，本目录**不复述** |
-| 第 7.5 步（微课运行稿） | `micro-lesson-runtime.md` | SEG 时间轴、与课堂设计的包含关系 |
-| 涉及技术手段的任何一步 | `technology-fit.md` | 五问 ＋ `technology_value` 分档 |
+| 第 7.5 步（微课运行稿） | `micro-lesson-runtime.md` | 微课环节时间轴、与课堂设计的包含关系 |
+| 涉及技术手段的任何一步 | `technology-fit.md` | 五问 ＋ `技术价值` 分档 |
 | 第 8 步（材料一致性） | `material-consistency.md` | 五件套一致性矩阵与断链检查 |
-| 第 8 步（门禁与报告） | `quality-gates.md` | JPK-01～JPK-10 的判据与分档 |
+| 第 8 步（门禁与报告） | `quality-gates.md` | 门禁一～十的判据与分档 |
 | 提交前最后一遍 | `submission-checklist.md` | 终检清单（教学设计侧） |
 
 ---
@@ -50,11 +50,11 @@ jpk-high-school-chinese/
 ├── catalog-node.md            节点检索、核验、标题全等、教材核对、取证与保存
 ├── alignment.md               目标-教学点-活动-产出-证据-评价-任务单-作业-课件-视频 的关系
 ├── technology-fit.md          何时用/不用技术、功能分类、删技术测试、操作成本、学习增益
-├── micro-lesson-runtime.md    微课结构、SEG 时间轴、画面、教师语言、学生任务
+├── micro-lesson-runtime.md    微课结构、微课环节 时间轴、画面、教师语言、学生任务
 ├── task-sheet.md              学习任务单：八节结构、任务粒度、书写空间、答案隔离
 ├── homework.md                作业练习：目标回指、课堂承接、迁移、评价
 ├── material-consistency.md    五件套一致性矩阵与断链检查
-├── quality-gates.md           JPK-01～JPK-10 判据、分档、交付报告
+├── quality-gates.md           门禁一～十 判据、分档、交付报告
 └── submission-checklist.md    提交前终检清单（教学设计侧）
 ```
 
@@ -81,7 +81,7 @@ jpk-high-school-chinese/
 
 > **节点核验拿不到证据时，不得降级为"推定通过"。**
 
-九步流程里，其余各步都允许按证据强度分档（PASS／WARN／BLOCK，甚至记 `needs_verification` 先往下走）；
+九步流程里，其余各步都允许按证据强度分档（通过／提醒／阻断，甚至记 `待核验` 先往下走）；
 **只有第 0.5 步例外**——拿不到官方节点证据就**停**，说明原因，等用户补证据。
 
 理由：节点错了，后面所有工作都建立在一个不被接受的选题上。这是**返工成本最高、也最不该省**的一处。
