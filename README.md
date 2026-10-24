@@ -95,7 +95,7 @@
 | `篇目_学案.docx` | **学生** | **不得出现教学目标、设计意图、预设应对、答案**；每处提问后留书写空间 |
 | `篇目_说课稿.docx` | 同行 / 评委 | 每个环节都要写设计意图——说课稿回答的是"我为什么这样教" |
 
-四条共同约束：**母本冻结后才生成**、**四份分四份出**（不合并成一份多章节文档）、**同改同废**（母本一改四份全部重出）、**走 `tencent-docx` 生成**（不裸调 python-docx）。
+四条共同约束：**母本冻结后才生成**、**四份分四份出**（不合并成一份多章节文档）、**同改同废**（母本一改四份全部重出）、**走 `workbuddy-docx` 生成**（不裸调 python-docx）。
 
 分节细则、Word 版式与落盘规范、四份互查清单、常见坑见 [`references/deliverables-word.md`](references/deliverables-word.md)。
 
@@ -254,15 +254,16 @@ git clone https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 取最新
 git clone https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 取指定版本
-git clone --branch v2.1.0 --depth 1 \
+git clone --branch v2.1.1 --depth 1 \
   https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 不装 git，也可直接取该版本的 tar 包
-curl -LO https://codeload.github.com/zhshy/gaozhong-yuwen-design-orchestrator/tar.gz/refs/tags/v2.1.0
+curl -LO https://codeload.github.com/zhshy/gaozhong-yuwen-design-orchestrator/tar.gz/refs/tags/v2.1.1
 ```
 
 - **关于 `v2.0.0` 这个主版本号**：它标记的是**交付形态的一次扩充**（从"四份 Word ＋ 课件"扩为"另一条独立的精品课交付链"），不是普通模式的行为改变。**`普通备课` 路径逐字向后兼容**——七步流程、四份 Word、课件两阶段、红线 1–16 **一字未动**；历史调用结果不受影响。仍按 `v1.11.0` 使用的用户在升级前无需改任何习惯。
 - **核对手上副本的版本**：装进 `~/.workbuddy/skills/` 的副本不带 `.git`，看 [`SKILL.md`](SKILL.md) 前几行的 `version:` 字段即为当前版本；若取的是 git 检出，用 `git -C <repo> describe --tags`。
-- **引用时带上版本号**：本技能与五个底层技能、以及生成通道 `tencent-docx` / `tencent-pptx` 配套使用，建议记成"总控 v2.1.0 + 课标库 v2.0.0"这样的组合——**不同版本的流程步数与红线条数不同**（`v1.x` 为 16 条、`v2.0.0` 起为 26 条、`v2.1.0` 起为 27 条），混用会产出不一致的结果。
+- **引用时带上版本号**：本技能与五个底层技能、以及生成通道 `workbuddy-docx` / `workbuddy-pptx` 配套使用，建议记成"总控 v2.1.1 + 课标库 v2.0.0"这样的组合——**不同版本的流程步数与红线条数不同**（`v1.x` 为 16 条、`v2.0.0` 起为 26 条、`v2.1.0` 起为 27 条），混用会产出不一致的结果。
+- **关于 `v2.1.1`**：**口径与工具链修复**版本——统一学业质量三级制口径、订正母本附二旧版描述、消除"教材字段默认推断"与红线的冲突、生成通道改现名（详见 [`CHANGELOG.md`](CHANGELOG.md)）。流程步数、门禁道数、红线 1–27 均无变化，**无需改任何使用习惯**。
 - **关于 `v2.1.0`**：**命名规范化**版本——全库英文标识改为中文（编号、门禁结论、字段名、概念名），并新增红线 27「交付物一律用中文」。流程步数、门禁道数、红线 1–26 均无变化。
 
 ## 什么是 Skill
