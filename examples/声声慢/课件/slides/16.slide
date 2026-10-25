@@ -7,15 +7,15 @@
   <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center', gap: 20 }}>
     <Box style={{ flexDirection: 'row', height: 110, alignItems: 'center', paddingLeft: 24, background: 'rgba(31,58,52,0.07)' }}>
       <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#1F3A34', width: 200 }}>基础 · 必做</Text>
-      <Text style={{ fontSize: 28, color: '#1F3A34' }}>给“梧桐更兼细雨”标停顿与重音，写一句理由</Text>
+      <Text style={{ fontSize: 27, color: '#1F3A34' }}>给“梧桐更兼细雨”标停顿与重音</Text>
     </Box>
     <Box style={{ flexDirection: 'row', height: 110, alignItems: 'center', paddingLeft: 24, background: 'rgba(31,58,52,0.07)' }}>
       <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#1F3A34', width: 200 }}>提高 · 必做</Text>
-      <Text style={{ fontSize: 28, color: '#1F3A34' }}>比《醉花阴》的“愁”，各举一句为证</Text>
+      <Text style={{ fontSize: 27, color: '#1F3A34' }}>用分层或语码分析《醉花阴》一处</Text>
     </Box>
     <Box style={{ flexDirection: 'row', height: 110, alignItems: 'center', paddingLeft: 24, background: 'rgba(31,58,52,0.07)' }}>
       <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#B4552D', width: 200 }}>拓展 · 选做</Text>
-      <Text style={{ fontSize: 28, color: '#1F3A34' }}>找一句用叠词写失落的歌词，比一比</Text>
+      <Text style={{ fontSize: 27, color: '#1F3A34' }}>找叠词歌词，比它有没有“由外入内”</Text>
     </Box>
   </Box>
   </Box>

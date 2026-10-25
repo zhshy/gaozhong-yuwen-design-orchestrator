@@ -1,7 +1,7 @@
 <Slide style={{ background: '#F5F1E6', padding: '48px 64px', fontFamily: '宋体' }}>
   <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72 }}>
     <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.2 }}>一次广播导赏</Text>
-    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>环节一 · 导入与诊断</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>环节一 · 导入</Text>
   </Box>
   <Box style={{ height: 472, marginTop: 20, flexDirection: 'column' }}>
   <Box style={{ flexDirection: 'row', height: 472 }}>
@@ -11,9 +11,9 @@
     </Box>
     <Box style={{ flex: 1, background: 'rgba(31,58,52,0.06)', padding: 32, flexDirection: 'column', justifyContent: 'center' }}>
       <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#1F3A34' }}>导赏稿要回答三件事</Text>
-      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2, marginTop: 16 }}>一、哪里放慢</Text>
-      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2 }}>二、哪里压住</Text>
-      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2 }}>三、末句怎么收</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2, marginTop: 16 }}>一、它深了几层</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2 }}>二、这个词前人怎么写</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2 }}>三、有人说它不好，怎么看</Text>
     </Box>
   </Box>
   </Box>

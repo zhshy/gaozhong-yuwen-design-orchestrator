@@ -7,23 +7,22 @@
   <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center', gap: 16 }}>
     <Box style={{ flexDirection: 'row', gap: 16, height: 130 }}>
       <Box style={{ flex: 1, background: 'rgba(31,58,52,0.06)', padding: 20 }}>
-        <Text style={{ fontSize: 24, color: '#6B6B6B' }}>第一层</Text>
-        <Text style={{ fontSize: 28, color: '#1F3A34', marginTop: 6 }}>找 → 找不到 → 连自己也没找回来</Text>
+        <Text style={{ fontSize: 24, color: '#6B6B6B' }}>一 · 由外入内</Text>
+        <Text style={{ fontSize: 26, color: '#1F3A34', marginTop: 6 }}>冷冷（外）→ 清清（内）→ 戚戚（肠痛心碎）</Text>
       </Box>
     </Box>
     <Box style={{ flexDirection: 'row', gap: 16, height: 130 }}>
       <Box style={{ flex: 1, background: 'rgba(31,58,52,0.07)', padding: 20 }}>
-        <Text style={{ fontSize: 24, color: '#6B6B6B' }}>第二层 · 旧时</Text>
-        <Text style={{ fontSize: 28, color: '#1F3A34', marginTop: 6 }}>淡酒 · 过雁（旧时相识）</Text>
+        <Text style={{ fontSize: 24, color: '#6B6B6B' }}>二 · 传统的词</Text>
+        <Text style={{ fontSize: 26, color: '#1F3A34', marginTop: 6 }}>雁 · 梧桐 · 黄花 → 转向如今</Text>
       </Box>
       <Box style={{ flex: 1, background: 'rgba(180,85,45,0.10)', padding: 20 }}>
-        <Text style={{ fontSize: 24, color: '#6B6B6B' }}>第二层 · 如今</Text>
-        <Text style={{ fontSize: 28, color: '#1F3A34', marginTop: 6 }}>黄花（有谁堪摘）· 梧桐 · 细雨</Text>
+        <Text style={{ fontSize: 24, color: '#6B6B6B' }}>三 · 末句</Text>
+        <Text style={{ fontSize: 26, color: '#1F3A34', marginTop: 6 }}>入声收住；有人说它伧气</Text>
       </Box>
     </Box>
-    <Box style={{ height: 130, background: 'rgba(31,58,52,0.10)', justifyContent: 'center', paddingLeft: 20 }}>
-      <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#B4552D' }}>怎一个愁字了得</Text>
-      <Text style={{ fontSize: 24, color: '#1F3A34', marginTop: 6 }}>不是说不出来，是九十七个字也说不完</Text>
+    <Box style={{ height: 90, background: 'rgba(31,58,52,0.10)', justifyContent: 'center', paddingLeft: 20 }}>
+      <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#B4552D' }}>怎一个愁字了得</Text>
     </Box>
   </Box>
   </Box>

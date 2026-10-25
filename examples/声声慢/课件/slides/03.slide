@@ -1,23 +1,17 @@
 <Slide style={{ background: '#F5F1E6', padding: '48px 64px', fontFamily: '宋体' }}>
   <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72 }}>
-    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.2 }}>三个词，三种直觉</Text>
-    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>环节一 · 导入与诊断</Text>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.2 }}>十四个字，好在哪</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>环节一 · 诊断</Text>
   </Box>
   <Box style={{ height: 472, marginTop: 20, flexDirection: 'column' }}>
-  <Box style={{ flexDirection: 'row', gap: 24, height: 200 }}>
-    <Box style={{ flex: 1, background: 'rgba(31,58,52,0.06)', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
-      <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34' }}>梧桐</Text>
+  <Box style={{ height: 472, justifyContent: 'center', flexDirection: 'column' }}>
+    <Box style={{ padding: '32px 40px', background: 'rgba(31,58,52,0.05)' }}>
+      <Text style={{ fontSize: 34, color: '#1F3A34', lineHeight: 1.9, letterSpacing: 2 }}>寻寻觅觅，冷冷清清，凄凄惨惨戚戚。</Text>
     </Box>
-    <Box style={{ flex: 1, background: 'rgba(31,58,52,0.06)', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
-      <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34' }}>细雨</Text>
+    <Box style={{ marginTop: 32, borderLeft: '4px solid #B4552D', paddingLeft: 24 }}>
+      <Text style={{ fontSize: 28, color: '#1F3A34' }}>这十四个字，好在哪？写一句你的答案。</Text>
+      <Text style={{ fontSize: 24, color: '#6B6B6B', marginTop: 12 }}>答案会被原样抄在黑板上，这节课结束时再回头看。</Text>
     </Box>
-    <Box style={{ flex: 1, background: 'rgba(31,58,52,0.06)', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
-      <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34' }}>黄花</Text>
-    </Box>
-  </Box>
-  <Box style={{ marginTop: 28, borderLeft: '4px solid #B4552D', paddingLeft: 24, flexDirection: 'column' }}>
-    <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 1.8 }}>各写一个形容词，再圈出词里让你这么写的那个字。</Text>
-    <Text style={{ fontSize: 24, color: '#6B6B6B', marginTop: 12 }}>写不出“哪个字”，先放着，这节课就是来解决它的。</Text>
   </Box>
   </Box>
   <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8 }}>

@@ -1,16 +1,16 @@
 <Slide style={{ background: '#F5F1E6', padding: '48px 64px', fontFamily: '宋体' }}>
   <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72 }}>
-    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.2 }}>修订：把“我觉得”换成“因为”</Text>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.2 }}>修订：把“很有层次”改掉</Text>
     <Text style={{ fontSize: 24, color: '#6B6B6B' }}>环节四 · 修订</Text>
   </Box>
   <Box style={{ height: 472, marginTop: 20, flexDirection: 'column' }}>
   <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
-    <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#1F3A34' }}>改一句话：把“我觉得凄凉”改成“因为某字……”</Text>
+    <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#1F3A34' }}>改一句话：把“很有层次”改成“从哪一级走到哪一级”</Text>
     <Box style={{ marginTop: 28, borderLeft: '4px solid #B4552D', paddingLeft: 24, flexDirection: 'column' }}>
-      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 1.9 }}>达标：指出依据字，并说出它在哪一句。</Text>
-      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 1.9, marginTop: 8 }}>优秀：还能说出这个字有几种讲法。</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 1.9 }}>达标：分出外／内两级以上，并说出互换后坏掉的是什么。</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 1.9, marginTop: 8 }}>优秀：还能说出“寻”与“觅”之别。</Text>
     </Box>
-    <Text style={{ fontSize: 28, color: '#B4552D', marginTop: 28 }}>只改“依据字”那一列，3 分钟，不重抄表格。</Text>
+    <Text style={{ fontSize: 28, color: '#B4552D', marginTop: 28 }}>只改这一段，3 分钟，不重抄。</Text>
   </Box>
   </Box>
   <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8 }}>

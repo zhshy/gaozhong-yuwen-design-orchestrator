@@ -1,51 +1,53 @@
 <Slide style={{ background: '#F5F1E6', padding: '48px 64px', fontFamily: '宋体' }}>
   <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72 }}>
-    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.2 }}>标一动，标一态</Text>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.2 }}>由外，还是由内</Text>
     <Text style={{ fontSize: 24, color: '#6B6B6B' }}>环节二 · 任务一</Text>
   </Box>
   <Box style={{ height: 472, marginTop: 20, flexDirection: 'column' }}>
   <Box style={{ flexDirection: 'row', height: 472 }}>
     <Box style={{ width: 420, paddingRight: 40, flexDirection: 'column', justifyContent: 'center' }}>
-      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 1.9 }}>给十四个字逐个标注：</Text>
-      <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#B4552D', lineHeight: 1.9 }}>写“找”的动作，还是“找不到”的状态？</Text>
-      <Text style={{ fontSize: 24, color: '#6B6B6B', marginTop: 20, lineHeight: 1.7 }}>标完再读一遍，听听语速有没有变。</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 1.9 }}>这十四个字，是从</Text>
+      <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#B4552D', lineHeight: 1.9 }}>外面</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 1.9 }}>走到了</Text>
+      <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#B4552D', lineHeight: 1.9 }}>心里</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 1.9 }}>吗？在哪一个字上拐的弯？</Text>
     </Box>
     <Box style={{ flex: 1, flexDirection: 'column', justifyContent: 'center' }}>
       <Box style={{ flexDirection: 'row', gap: 10 }}>
-        <Box style={{ width: 52, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
+        <Box style={{ width: 58, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
           <Text style={{ fontSize: 28, color: '#1F3A34' }}>寻</Text>
-        </Box><Box style={{ width: 52, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
+        </Box><Box style={{ width: 58, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
           <Text style={{ fontSize: 28, color: '#1F3A34' }}>寻</Text>
-        </Box><Box style={{ width: 52, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
+        </Box><Box style={{ width: 58, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
           <Text style={{ fontSize: 28, color: '#1F3A34' }}>觅</Text>
-        </Box><Box style={{ width: 52, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
+        </Box><Box style={{ width: 58, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
           <Text style={{ fontSize: 28, color: '#1F3A34' }}>觅</Text>
-        </Box><Box style={{ width: 52, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
+        </Box><Box style={{ width: 58, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
           <Text style={{ fontSize: 28, color: '#1F3A34' }}>冷</Text>
-        </Box><Box style={{ width: 52, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
+        </Box><Box style={{ width: 58, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
           <Text style={{ fontSize: 28, color: '#1F3A34' }}>冷</Text>
-        </Box><Box style={{ width: 52, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
+        </Box><Box style={{ width: 58, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
           <Text style={{ fontSize: 28, color: '#1F3A34' }}>清</Text>
-        </Box><Box style={{ width: 52, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
+        </Box><Box style={{ width: 58, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
           <Text style={{ fontSize: 28, color: '#1F3A34' }}>清</Text>
         </Box>
       </Box>
       <Box style={{ flexDirection: 'row', gap: 10, marginTop: 14 }}>
-        <Box style={{ width: 52, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
+        <Box style={{ width: 58, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
           <Text style={{ fontSize: 28, color: '#1F3A34' }}>凄</Text>
-        </Box><Box style={{ width: 52, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
+        </Box><Box style={{ width: 58, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
           <Text style={{ fontSize: 28, color: '#1F3A34' }}>凄</Text>
-        </Box><Box style={{ width: 52, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
+        </Box><Box style={{ width: 58, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
           <Text style={{ fontSize: 28, color: '#1F3A34' }}>惨</Text>
-        </Box><Box style={{ width: 52, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
+        </Box><Box style={{ width: 58, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
           <Text style={{ fontSize: 28, color: '#1F3A34' }}>惨</Text>
-        </Box><Box style={{ width: 52, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
+        </Box><Box style={{ width: 58, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
           <Text style={{ fontSize: 28, color: '#1F3A34' }}>戚</Text>
-        </Box><Box style={{ width: 52, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
+        </Box><Box style={{ width: 58, height: 150, border: '1px solid rgba(31,58,52,0.35)', alignItems: 'center', justifyContent: 'flex-start', paddingTop: 12 }}>
           <Text style={{ fontSize: 28, color: '#1F3A34' }}>戚</Text>
         </Box>
       </Box>
-      <Text style={{ fontSize: 24, color: '#6B6B6B', marginTop: 20 }}>每格一个字；下面留白处写“动”或“态”。</Text>
+      <Text style={{ fontSize: 24, color: '#6B6B6B', marginTop: 20 }}>在拐弯的那个字下面画一道线。</Text>
     </Box>
   </Box>
   </Box>

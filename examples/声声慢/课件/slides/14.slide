@@ -1,23 +1,21 @@
 <Slide style={{ background: '#F5F1E6', padding: '48px 64px', fontFamily: '宋体' }}>
   <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72 }}>
-    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.2 }}>末句：拖长，还是收住</Text>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.2 }}>有人说它伧气</Text>
     <Text style={{ fontSize: 24, color: '#6B6B6B' }}>环节五 · 任务三</Text>
   </Box>
   <Box style={{ height: 472, marginTop: 20, flexDirection: 'column' }}>
-  <Box style={{ marginTop: 20, padding: '24px 40px', background: 'rgba(31,58,52,0.05)' }}>
-    <Text style={{ fontSize: 34, color: '#1F3A34', lineHeight: 1.9 }}>这次第，怎一个愁字了得！</Text>
-  </Box>
-  <Box style={{ flexDirection: 'row', gap: 24, marginTop: 28, height: 180 }}>
-    <Box style={{ flex: 1, border: '1px solid rgba(31,58,52,0.35)', padding: 24, justifyContent: 'center' }}>
-      <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#1F3A34' }}>读法 A：拖长</Text>
-      <Text style={{ fontSize: 24, color: '#6B6B6B', marginTop: 12 }}>把“了得”放开，声音散出去</Text>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center', gap: 18 }}>
+    <Box style={{ padding: '22px 28px', background: 'rgba(31,58,52,0.06)', borderLeft: '4px solid #1F3A34' }}>
+      <Text style={{ fontSize: 26, color: '#1F3A34', lineHeight: 1.7 }}>许昂霄：此词颇带伧气，而昔人极口称之，殆不可解。</Text>
     </Box>
-    <Box style={{ flex: 1, border: '1px solid rgba(180,85,45,0.5)', padding: 24, justifyContent: 'center' }}>
-      <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#B4552D' }}>读法 B：收住</Text>
-      <Text style={{ fontSize: 24, color: '#6B6B6B', marginTop: 12 }}>把“得”压实，声音咽回去</Text>
+    <Box style={{ padding: '22px 28px', background: 'rgba(31,58,52,0.06)', borderLeft: '4px solid #1F3A34' }}>
+      <Text style={{ fontSize: 26, color: '#1F3A34', lineHeight: 1.7 }}>陈廷焯：此不过奇笔耳，并非高调。</Text>
+    </Box>
+    <Box style={{ marginTop: 10, borderLeft: '4px solid #B4552D', paddingLeft: 24 }}>
+      <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#B4552D' }}>你同意吗？举一句词为证。</Text>
+      <Text style={{ fontSize: 24, color: '#6B6B6B', marginTop: 10 }}>不举词句的表态，同意与不同意都不算。</Text>
     </Box>
   </Box>
-  <Text style={{ fontSize: 28, color: '#1F3A34', marginTop: 24 }}>选一种，说一句“为什么”。</Text>
   </Box>
   <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8 }}>
     <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《声声慢》· 李清照</Text>

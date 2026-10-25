@@ -1,23 +1,25 @@
 <Slide style={{ background: '#F5F1E6', padding: '48px 64px', fontFamily: '宋体' }}>
   <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72 }}>
-    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.2 }}>“旧时相识”与“有谁堪摘”</Text>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.2 }}>雁与梧桐，变在哪</Text>
     <Text style={{ fontSize: 24, color: '#6B6B6B' }}>环节三 · 任务二</Text>
   </Box>
   <Box style={{ height: 472, marginTop: 20, flexDirection: 'column' }}>
   <Box style={{ height: 472, flexDirection: 'column' }}>
     <Box style={{ flexDirection: 'row', gap: 24, height: 300, marginTop: 16 }}>
       <Box style={{ flex: 1, background: 'rgba(31,58,52,0.07)', padding: 24, flexDirection: 'column' }}>
-        <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#1F3A34' }}>旧时</Text>
-        <Text style={{ fontSize: 28, color: '#1F3A34', marginTop: 20, lineHeight: 1.9 }}>过雁</Text>
-        <Text style={{ fontSize: 24, color: '#6B6B6B', marginTop: 8 }}>依据：旧时相识</Text>
+        <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#1F3A34' }}>雁</Text>
+        <Text style={{ fontSize: 24, color: '#1F3A34', marginTop: 16, lineHeight: 1.9 }}>前人：雁足传书</Text>
+        <Text style={{ fontSize: 24, color: '#6B6B6B', marginTop: 8 }}>“归雁洛阳边”</Text>
+        <Text style={{ fontSize: 24, color: '#B4552D', marginTop: 12 }}>这一首：旧时相识</Text>
       </Box>
       <Box style={{ flex: 1, background: 'rgba(180,85,45,0.10)', padding: 24, flexDirection: 'column' }}>
-        <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#B4552D' }}>如今</Text>
-        <Text style={{ fontSize: 28, color: '#1F3A34', marginTop: 20, lineHeight: 1.9 }}>黄花</Text>
-        <Text style={{ fontSize: 24, color: '#6B6B6B', marginTop: 8 }}>依据：有谁堪摘</Text>
+        <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#B4552D' }}>梧桐</Text>
+        <Text style={{ fontSize: 24, color: '#1F3A34', marginTop: 16, lineHeight: 1.9 }}>前人：寂寞梧桐深院</Text>
+        <Text style={{ fontSize: 24, color: '#6B6B6B', marginTop: 8 }}>梧桐树，三更雨</Text>
+        <Text style={{ fontSize: 24, color: '#B4552D', marginTop: 12 }}>这一首：到黄昏，点点滴滴</Text>
       </Box>
     </Box>
-    <Text style={{ fontSize: 28, color: '#1F3A34', marginTop: 24 }}>花还在开，摘花的人不在了——东西没变，时候变了。</Text>
+    <Text style={{ fontSize: 28, color: '#1F3A34', marginTop: 24 }}>词还是那些词，可是全都转向了“如今”。</Text>
   </Box>
   </Box>
   <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8 }}>

@@ -5,8 +5,8 @@
   </Box>
   <Box style={{ height: 472, marginTop: 20, flexDirection: 'column' }}>
   <Box style={{ height: 472, justifyContent: 'center', flexDirection: 'column' }}>
-    <Text style={{ fontSize: 56, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.5 }}>全词只写一个“愁”，</Text>
-    <Text style={{ fontSize: 56, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.5 }}>为什么结尾说“怎一个愁字了得”？</Text>
+    <Text style={{ fontSize: 44, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.5 }}>全词只写一个“愁”，</Text>
+    <Text style={{ fontSize: 44, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.5 }}>为什么结尾说“怎一个愁字了得”？</Text>
     <Text style={{ fontSize: 24, color: '#6B6B6B', marginTop: 40 }}>这个问题，全课只答一次。</Text>
   </Box>
   </Box>
