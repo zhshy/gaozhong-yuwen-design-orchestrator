@@ -1,0 +1,26 @@
+<Slide style={{ background: '#F5F1E6', padding: '48px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.2 }}>从“找”到“找不到”</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>环节二 · 任务一</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column' }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center', gap: 24 }}>
+    <Box style={{ height: 120, background: 'rgba(31,58,52,0.06)', flexDirection: 'row', alignItems: 'center', paddingLeft: 32 }}>
+      <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#1F3A34' }}>寻寻觅觅</Text>
+      <Text style={{ fontSize: 28, color: '#6B6B6B', marginLeft: 24 }}>找 —— 而且是找了很久</Text>
+    </Box>
+    <Box style={{ height: 120, background: 'rgba(31,58,52,0.09)', flexDirection: 'row', alignItems: 'center', paddingLeft: 32 }}>
+      <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#1F3A34' }}>冷冷清清</Text>
+      <Text style={{ fontSize: 28, color: '#6B6B6B', marginLeft: 24 }}>找不到 —— 屋子空，人也空</Text>
+    </Box>
+    <Box style={{ height: 120, background: 'rgba(180,85,45,0.12)', flexDirection: 'row', alignItems: 'center', paddingLeft: 32 }}>
+      <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#B4552D' }}>凄凄惨惨戚戚</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', marginLeft: 24 }}>连自己也没找回来</Text>
+    </Box>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《声声慢》· 李清照</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>07/16</Text>
+  </Box>
+</Slide>

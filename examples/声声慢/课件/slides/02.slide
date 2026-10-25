@@ -1,0 +1,24 @@
+<Slide style={{ background: '#F5F1E6', padding: '48px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.2 }}>一次广播导赏</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>环节一 · 导入与诊断</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column' }}>
+  <Box style={{ flexDirection: 'row', height: 472 }}>
+    <Box style={{ width: 620, paddingRight: 40, flexDirection: 'column', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 1.8 }}>学校“词的声音”栏目要做一期朗读导赏。</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 1.8, marginTop: 24 }}>导赏稿不能说“这首词很悲伤”，要说清：哪一句该怎么读，为什么这么读。</Text>
+    </Box>
+    <Box style={{ flex: 1, background: 'rgba(31,58,52,0.06)', padding: 32, flexDirection: 'column', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#1F3A34' }}>导赏稿要回答三件事</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2, marginTop: 16 }}>一、哪里放慢</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2 }}>二、哪里压住</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2 }}>三、末句怎么收</Text>
+    </Box>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《声声慢》· 李清照</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>02/16</Text>
+  </Box>
+</Slide>

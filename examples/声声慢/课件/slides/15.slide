@@ -1,0 +1,34 @@
+<Slide style={{ background: '#F5F1E6', padding: '48px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.2 }}>板书：三次生长</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>环节六 · 小结</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column' }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center', gap: 16 }}>
+    <Box style={{ flexDirection: 'row', gap: 16, height: 130 }}>
+      <Box style={{ flex: 1, background: 'rgba(31,58,52,0.06)', padding: 20 }}>
+        <Text style={{ fontSize: 24, color: '#6B6B6B' }}>第一层</Text>
+        <Text style={{ fontSize: 28, color: '#1F3A34', marginTop: 6 }}>找 → 找不到 → 连自己也没找回来</Text>
+      </Box>
+    </Box>
+    <Box style={{ flexDirection: 'row', gap: 16, height: 130 }}>
+      <Box style={{ flex: 1, background: 'rgba(31,58,52,0.07)', padding: 20 }}>
+        <Text style={{ fontSize: 24, color: '#6B6B6B' }}>第二层 · 旧时</Text>
+        <Text style={{ fontSize: 28, color: '#1F3A34', marginTop: 6 }}>淡酒 · 过雁（旧时相识）</Text>
+      </Box>
+      <Box style={{ flex: 1, background: 'rgba(180,85,45,0.10)', padding: 20 }}>
+        <Text style={{ fontSize: 24, color: '#6B6B6B' }}>第二层 · 如今</Text>
+        <Text style={{ fontSize: 28, color: '#1F3A34', marginTop: 6 }}>黄花（有谁堪摘）· 梧桐 · 细雨</Text>
+      </Box>
+    </Box>
+    <Box style={{ height: 130, background: 'rgba(31,58,52,0.10)', justifyContent: 'center', paddingLeft: 20 }}>
+      <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#B4552D' }}>怎一个愁字了得</Text>
+      <Text style={{ fontSize: 24, color: '#1F3A34', marginTop: 6 }}>不是说不出来，是九十七个字也说不完</Text>
+    </Box>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《声声慢》· 李清照</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>15/16</Text>
+  </Box>
+</Slide>

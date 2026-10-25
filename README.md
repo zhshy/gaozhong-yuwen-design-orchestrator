@@ -228,13 +228,14 @@
 | 内容 | 文件 |
 |---|---|
 | 教学设计（母本，十二节 ＋ 两附） | `examples/声声慢/声声慢_教学设计与检测量规.md` |
+| 教学设计 · Word 成品 | `examples/声声慢/声声慢_教学设计.docx` |
 | 教案（五列课时表，六环节） | `examples/声声慢/声声慢_教案.md` |
 | 学案（十栏 ＋ 诗歌诵读标注栏） | `examples/声声慢/声声慢_学案.md` |
 | 说课稿（九节，15 分钟，正文 2747 字） | `examples/声声慢/声声慢_说课稿.md` |
+| 课件成品 · 16 页 · 投给学生用 | `examples/声声慢/课件/声声慢.pptx` |
+| 课件源工程（叙事稿／设计稿／逐页源文件） | `examples/声声慢/课件/` |
 
 这份示例重点演示三件事：**学情写成三行**（已有经验／困难机制四选一／诊断任务，且写明推翻条件）、**修订与再验证单列六分钟**（只改"依据字"一列，再用「憔悴损」换文本验证）、**红线 5 在单篇课上的形态**（一个主问题 ＋ 三个子任务）。同时留了一个空白：本课未引入新概念，所以"概念闭环四问"**不触发**——"若……则"的规则，不触发时就是真的不做。
-
-> 该示例只给内容稿，不含 `.docx` / `.pptx`：版式与课件形态在《劝学》示例里已经完整演示，这一份补的是内容与体例。
 
 ## 依赖
 
@@ -269,15 +270,16 @@ git clone https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 取最新
 git clone https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 取指定版本
-git clone --branch v2.3.1 --depth 1 \
+git clone --branch v2.3.2 --depth 1 \
   https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 不装 git，也可直接取该版本的 tar 包
-curl -LO https://codeload.github.com/zhshy/gaozhong-yuwen-design-orchestrator/tar.gz/refs/tags/v2.3.1
+curl -LO https://codeload.github.com/zhshy/gaozhong-yuwen-design-orchestrator/tar.gz/refs/tags/v2.3.2
 ```
 
 - **关于 `v2.0.0` 这个主版本号**：它标记的是**交付形态的一次扩充**（从"四份 Word ＋ 课件"扩为"另一条独立的精品课交付链"），不是普通模式的行为改变。**`普通备课` 路径逐字向后兼容**——七步流程、四份 Word、课件两阶段、红线 1–16 **一字未动**；历史调用结果不受影响。仍按 `v1.11.0` 使用的用户在升级前无需改任何习惯。
 - **核对手上副本的版本**：装进 `~/.workbuddy/skills/` 的副本不带 `.git`，看 [`SKILL.md`](SKILL.md) 前几行的 `version:` 字段即为当前版本；若取的是 git 检出，用 `git -C <repo> describe --tags`。
-- **引用时带上版本号**：本技能与五个底层技能、以及生成通道 `workbuddy-docx` / `workbuddy-pptx` 配套使用，建议记成"总控 v2.3.1 + 课标库 v2.0.0"这样的组合——**不同版本的流程步数与红线条数不同**（`v1.x` 为 16 条、`v2.0.0` 起为 26 条、`v2.1.0` 起为 27 条），混用会产出不一致的结果。
+- **引用时带上版本号**：本技能与五个底层技能、以及生成通道 `workbuddy-docx` / `workbuddy-pptx` 配套使用，建议记成"总控 v2.3.2 + 课标库 v2.0.0"这样的组合——**不同版本的流程步数与红线条数不同**（`v1.x` 为 16 条、`v2.0.0` 起为 26 条、`v2.1.0` 起为 27 条），混用会产出不一致的结果。
+- **关于 `v2.3.2`**：《声声慢》示例补齐教学设计 Word 成品与 16 页课件成品。
 - **关于 `v2.3.1`**：新增第二份完整示例 `examples/声声慢/`（普通模式·单课时·词），演示学情三行、修订与再验证、红线 5 的单篇形态。
 - **关于 `v2.3.0`**：**教学机制显式化**——闭环补上修订与再验证、主台阶加困难机制四分类与诊断任务、新增概念闭环四问、红线 5 按课型说清"一个主问题"的形态。
 - **关于 `v2.2.2`**：**课件规范按获奖课例校准**——单页字数改按页型（30／120／原文页）、配图不限图源（判据是对得上文本）、标题允许环节＋四字短语、作者介绍页与板书页改按需。底层 `chinese-lesson-design` 同步。

@@ -1,0 +1,26 @@
+<Slide style={{ background: '#F5F1E6', padding: '48px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.2 }}>六样东西，两个时候</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>环节三 · 任务二</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column' }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+    <Text style={{ fontSize: 28, color: '#6B6B6B' }}>词里写着六样东西——</Text>
+    <Box style={{ flexDirection: 'row', gap: 20, marginTop: 24, height: 150 }}>
+      <Box style={{ flex: 1, background: 'rgba(31,58,52,0.06)', alignItems: 'center', justifyContent: 'center' }}><Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34' }}>淡酒</Text></Box>
+      <Box style={{ flex: 1, background: 'rgba(31,58,52,0.06)', alignItems: 'center', justifyContent: 'center' }}><Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34' }}>晚风</Text></Box>
+      <Box style={{ flex: 1, background: 'rgba(31,58,52,0.06)', alignItems: 'center', justifyContent: 'center' }}><Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34' }}>过雁</Text></Box>
+    </Box>
+    <Box style={{ flexDirection: 'row', gap: 20, marginTop: 20, height: 150 }}>
+      <Box style={{ flex: 1, background: 'rgba(31,58,52,0.06)', alignItems: 'center', justifyContent: 'center' }}><Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34' }}>黄花</Text></Box>
+      <Box style={{ flex: 1, background: 'rgba(31,58,52,0.06)', alignItems: 'center', justifyContent: 'center' }}><Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34' }}>梧桐</Text></Box>
+      <Box style={{ flex: 1, background: 'rgba(31,58,52,0.06)', alignItems: 'center', justifyContent: 'center' }}><Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34' }}>细雨</Text></Box>
+    </Box>
+    <Text style={{ fontSize: 28, color: '#1F3A34', marginTop: 24 }}>它们都在词里，但不在同一个“时候”。</Text>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《声声慢》· 李清照</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>08/16</Text>
+  </Box>
+</Slide>

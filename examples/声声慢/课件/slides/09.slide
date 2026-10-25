@@ -1,0 +1,26 @@
+<Slide style={{ background: '#F5F1E6', padding: '48px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.2 }}>每一项都要一个依据字</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>环节三 · 任务二</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column' }}>
+  <Box style={{ height: 472, flexDirection: 'column' }}>
+    <Text style={{ fontSize: 28, color: '#1F3A34' }}>把六样东西分进两栏，并在每样后面写一个“依据字”。</Text>
+    <Box style={{ flexDirection: 'row', gap: 24, marginTop: 24, height: 300 }}>
+      <Box style={{ flex: 1, border: '1px solid rgba(31,58,52,0.35)', padding: 20, flexDirection: 'column' }}>
+        <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#1F3A34' }}>旧时就有的</Text>
+        <Text style={{ fontSize: 24, color: '#6B6B6B', marginTop: 16 }}>依据：______</Text>
+      </Box>
+      <Box style={{ flex: 1, border: '1px solid rgba(180,85,45,0.45)', padding: 20, flexDirection: 'column' }}>
+        <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#B4552D' }}>如今才这样的</Text>
+        <Text style={{ fontSize: 24, color: '#6B6B6B', marginTop: 16 }}>依据：______</Text>
+      </Box>
+    </Box>
+    <Text style={{ fontSize: 24, color: '#6B6B6B', marginTop: 20 }}>“依据字”就是那个告诉你答案的字，不是你的感觉。</Text>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《声声慢》· 李清照</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>09/16</Text>
+  </Box>
+</Slide>

@@ -1,0 +1,26 @@
+<Slide style={{ background: '#F5F1E6', padding: '48px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.2 }}>今天的出口</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>环节六 · 作业</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column' }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center', gap: 20 }}>
+    <Box style={{ flexDirection: 'row', height: 110, alignItems: 'center', paddingLeft: 24, background: 'rgba(31,58,52,0.07)' }}>
+      <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#1F3A34', width: 200 }}>基础 · 必做</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34' }}>给“梧桐更兼细雨”标停顿与重音，写一句理由</Text>
+    </Box>
+    <Box style={{ flexDirection: 'row', height: 110, alignItems: 'center', paddingLeft: 24, background: 'rgba(31,58,52,0.07)' }}>
+      <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#1F3A34', width: 200 }}>提高 · 必做</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34' }}>比《醉花阴》的“愁”，各举一句为证</Text>
+    </Box>
+    <Box style={{ flexDirection: 'row', height: 110, alignItems: 'center', paddingLeft: 24, background: 'rgba(31,58,52,0.07)' }}>
+      <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#B4552D', width: 200 }}>拓展 · 选做</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34' }}>找一句用叠词写失落的歌词，比一比</Text>
+    </Box>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《声声慢》· 李清照</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>16/16</Text>
+  </Box>
+</Slide>
