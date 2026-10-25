@@ -178,6 +178,7 @@
 | `references/lesson-context.md` | **第 0 步课情卡规范**：`交付模式` 路由字段 ＋ 七组字段 ＋ **精品课第八组 `提交`**、四态判定决策树、呈现表格模板、交付话术、六种常见违规；红线 7 的落地形态 |
 | `references/time-budget.md` | **课堂时间预算模型**：**七列时间项**（六类必计项 ＋ 教师讲授·齐读·机动）与计提规则、"汇报 × 组数"的算法、母本第五节表的填法与示例、两条硬约束、认知负荷（可选） |
 | `references/differentiation.md` | **教学方向 / 学情 / 教师画像**：三个方向的一句话差异（提问旁备注用）、3×3 矩阵与收缩规则、教师画像字段与应用边界 |
+| `references/poetry-appreciation-angles.md` | **古诗词鉴赏的八个入手角度**（叶嘉莹／傅庚生／唐圭璋，只取可检查的部分）：分层／字法／语序不可移／语码／声情／知人论世／反面评价，另加"先感后析"一条提醒；每条含"问什么→达标→常见假答"三栏。**古诗词篇目在第 2 步加载，一课时取二至三条** |
 | `references/deliverables-word.md` | **四份 Word 交付物规范**：每份装什么／绝对不装什么、Word 版式与落盘规范、生成流程、四份互查清单、常见坑 |
 | `references/xuean-shuoke-spec.md` | **学案与说课稿的体例依据**：分节表、语文分体裁栏目差异、量化约束、红线与检查清单，**每条附校本／教研来源与可信度分级** |
 | `references/jpk-high-school-chinese/` | **学科课程类精品课模式规范**（13 个文件）：节点锁、依据链与教学评一致、**八类课型模板**、**三件提交件的首屏信息表**、技术适切、微课运行稿、学习任务单（六栏）、作业练习、材料一致性、门禁一～十门禁、提交终检；年度政策单独成文件便于逐年更新 |
@@ -248,15 +249,16 @@ git clone https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 取最新
 git clone https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 取指定版本
-git clone --branch v2.3.3 --depth 1 \
+git clone --branch v2.4.0 --depth 1 \
   https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 不装 git，也可直接取该版本的 tar 包
-curl -LO https://codeload.github.com/zhshy/gaozhong-yuwen-design-orchestrator/tar.gz/refs/tags/v2.3.3
+curl -LO https://codeload.github.com/zhshy/gaozhong-yuwen-design-orchestrator/tar.gz/refs/tags/v2.4.0
 ```
 
 - **关于 `v2.0.0` 这个主版本号**：它标记的是**交付形态的一次扩充**（从"四份 Word ＋ 课件"扩为"另一条独立的精品课交付链"），不是普通模式的行为改变。**`普通备课` 路径逐字向后兼容**——七步流程、四份 Word、课件两阶段、红线 1–16 **一字未动**；历史调用结果不受影响。仍按 `v1.11.0` 使用的用户在升级前无需改任何习惯。
 - **核对手上副本的版本**：装进 `~/.workbuddy/skills/` 的副本不带 `.git`，看 [`SKILL.md`](SKILL.md) 前几行的 `version:` 字段即为当前版本；若取的是 git 检出，用 `git -C <repo> describe --tags`。
-- **引用时带上版本号**：本技能与五个底层技能、以及生成通道 `workbuddy-docx` / `workbuddy-pptx` 配套使用，建议记成"总控 v2.3.3 + 课标库 v2.0.0"这样的组合——**不同版本的流程步数与红线条数不同**（`v1.x` 为 16 条、`v2.0.0` 起为 26 条、`v2.1.0` 起为 27 条），混用会产出不一致的结果。
+- **引用时带上版本号**：本技能与五个底层技能、以及生成通道 `workbuddy-docx` / `workbuddy-pptx` 配套使用，建议记成"总控 v2.4.0 + 课标库 v2.0.0"这样的组合——**不同版本的流程步数与红线条数不同**（`v1.x` 为 16 条、`v2.0.0` 起为 26 条、`v2.1.0` 起为 27 条），混用会产出不一致的结果。
+- **关于 `v2.4.0`**：新增古诗词鉴赏八个角度（`references/poetry-appreciation-angles.md`，源自叶嘉莹／傅庚生／唐圭璋，只取可检查部分），第 2 步按篇目加载、第 3 步加"教学点不得只落技法层"一条检查。
 - **关于 `v2.3.3`**：示例目录只保留《声声慢》，`examples/劝学/` 整目录移除（含精品课示例，可从 `v2.3.2` 标签取回），相关引用同步清理。
 - **关于 `v2.3.2`**：《声声慢》示例补齐教学设计 Word 成品与 16 页课件成品。
 - **关于 `v2.3.1`**：新增第二份完整示例 `examples/声声慢/`（普通模式·单课时·词），演示学情三行、修订与再验证、红线 5 的单篇形态。
