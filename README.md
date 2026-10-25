@@ -254,15 +254,16 @@ git clone https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 取最新
 git clone https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 取指定版本
-git clone --branch v2.2.0 --depth 1 \
+git clone --branch v2.2.1 --depth 1 \
   https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 不装 git，也可直接取该版本的 tar 包
-curl -LO https://codeload.github.com/zhshy/gaozhong-yuwen-design-orchestrator/tar.gz/refs/tags/v2.2.0
+curl -LO https://codeload.github.com/zhshy/gaozhong-yuwen-design-orchestrator/tar.gz/refs/tags/v2.2.1
 ```
 
 - **关于 `v2.0.0` 这个主版本号**：它标记的是**交付形态的一次扩充**（从"四份 Word ＋ 课件"扩为"另一条独立的精品课交付链"），不是普通模式的行为改变。**`普通备课` 路径逐字向后兼容**——七步流程、四份 Word、课件两阶段、红线 1–16 **一字未动**；历史调用结果不受影响。仍按 `v1.11.0` 使用的用户在升级前无需改任何习惯。
 - **核对手上副本的版本**：装进 `~/.workbuddy/skills/` 的副本不带 `.git`，看 [`SKILL.md`](SKILL.md) 前几行的 `version:` 字段即为当前版本；若取的是 git 检出，用 `git -C <repo> describe --tags`。
-- **引用时带上版本号**：本技能与五个底层技能、以及生成通道 `workbuddy-docx` / `workbuddy-pptx` 配套使用，建议记成"总控 v2.2.0 + 课标库 v2.0.0"这样的组合——**不同版本的流程步数与红线条数不同**（`v1.x` 为 16 条、`v2.0.0` 起为 26 条、`v2.1.0` 起为 27 条），混用会产出不一致的结果。
+- **引用时带上版本号**：本技能与五个底层技能、以及生成通道 `workbuddy-docx` / `workbuddy-pptx` 配套使用，建议记成"总控 v2.2.1 + 课标库 v2.0.0"这样的组合——**不同版本的流程步数与红线条数不同**（`v1.x` 为 16 条、`v2.0.0` 起为 26 条、`v2.1.0` 起为 27 条），混用会产出不一致的结果。
+- **关于 `v2.2.1`**：**课件页数口径修订**——改为按每课时计算（常规 16–24 页；联读／整本书／长文可到 30 页以上、不超过 40 页；以内容需要为准），取代 2.2.0 的按课型三档区间。其余无变化。
 - **关于 `v2.2.0`**：**提交件体例对齐**版本——依据国家中小学智慧教育平台 79 节获奖课例实物，补齐三件提交件的**首屏信息表**、学习任务单由八节改为**六栏**（栏目名照平台模板）、课件取消 20 页硬封顶改为**按课型的参考区间**、课型由 5 类扩为**八类**（新增起始课／活动实践课／整本书阅读／梳理探究的最小模板，并单列 `设计尺度` 字段）。流程步数、门禁道数、红线 1–27 均无变化（门禁十新增首屏判据，仍未新增门禁）。
 - **关于 `v2.1.1`**：**口径与工具链修复**版本——统一学业质量三级制口径、订正母本附二旧版描述、消除"教材字段默认推断"与红线的冲突、生成通道改现名（详见 [`CHANGELOG.md`](CHANGELOG.md)）。流程步数、门禁道数、红线 1–27 均无变化，**无需改任何使用习惯**。
 - **关于 `v2.1.0`**：**命名规范化**版本——全库英文标识改为中文（编号、门禁结论、字段名、概念名），并新增红线 27「交付物一律用中文」。流程步数、门禁道数、红线 1–26 均无变化。
