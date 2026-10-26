@@ -1,0 +1,27 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>作业</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>三层</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+    <Box style={{ padding: 15, background: 'rgba(31,58,52,0.06)', marginBottom: 10 }}>
+      <Text style={{ fontSize: 26, color: '#B4552D' }}>基础 · 全员</Text>
+      <Text style={{ fontSize: 26, color: '#1F3A34', lineHeight: 1.8, marginTop: 6 }}>读 4–7 篇，各做一张概念卡，五栏齐全</Text>
+    </Box>
+    <Box style={{ padding: 15, background: 'rgba(31,58,52,0.06)', marginBottom: 10 }}>
+      <Text style={{ fontSize: 26, color: '#B4552D' }}>提高 · 自选</Text>
+      <Text style={{ fontSize: 26, color: '#1F3A34', lineHeight: 1.8, marginTop: 6 }}>把《文字下乡》接成五环以上的链</Text>
+    </Box>
+    <Box style={{ padding: 15, background: 'rgba(31,58,52,0.06)' }}>
+      <Text style={{ fontSize: 26, color: '#B4552D' }}>拓展 · 自选</Text>
+      <Text style={{ fontSize: 26, color: '#1F3A34', lineHeight: 1.8, marginTop: 6 }}>找一个“不识字但很会办事”的人，用今天的表解释他</Text>
+    </Box>
+    <Text style={{ fontSize: 26, color: '#6B6B6B', marginTop: 20 }}>下周读第 4 篇，你会发现接不起来——为什么，下节课说。</Text>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 2 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>17/17</Text>
+  </Box>
+</Slide>

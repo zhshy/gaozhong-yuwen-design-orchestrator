@@ -1,0 +1,21 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>第三处：时代变化</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>要举证</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#B4552D' }}>第三处：时代变化</Text>
+    <Box style={{ marginTop: 22, borderLeft: '4px solid #B4552D', paddingLeft: 24 }}>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.0 }}>“时代变了”不是论证，是结论。</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.0 }}>哪一句变了？</Text>
+      <Text style={{ fontSize: 28, color: '#B4552D', lineHeight: 2.0, marginTop: 8 }}>举一个今天的具体现象，说清它怎么不符合那个判断。</Text>
+    </Box>
+    <Text style={{ fontSize: 26, color: '#6B6B6B', marginTop: 24 }}>举不出现象，就是没举证。</Text>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 5 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>10/16</Text>
+  </Box>
+</Slide>

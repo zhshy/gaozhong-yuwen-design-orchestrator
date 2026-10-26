@@ -1,0 +1,20 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>定稿：只改一处</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>修订</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+    <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#1F3A34' }}>定稿：只改一处</Text>
+    <Box style={{ marginTop: 26, borderLeft: '4px solid #B4552D', paddingLeft: 24 }}>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.0 }}>挑报告里最弱的那一句，改掉。</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.0 }}>不重写全篇。</Text>
+    </Box>
+    <Text style={{ fontSize: 27, color: '#B4552D', marginTop: 26 }}>改完在旁边写一行：原来那句为什么弱。</Text>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 5 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>12/16</Text>
+  </Box>
+</Slide>

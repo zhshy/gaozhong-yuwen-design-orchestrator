@@ -1,0 +1,23 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>任务三：三张卡接成链</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>读法一</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1F3A34' }}>三张卡接成链（10 无为政治 ＋ 11 长老统治）</Text>
+    <Box style={{ marginTop: 26, marginLeft: 24, flexDirection: 'column' }}>
+      <Text style={{ fontSize: 30, color: '#1F3A34', lineHeight: 1.7 }}>农业剩余有限</Text>
+      <Text style={{ fontSize: 24, color: '#B4552D', marginLeft: 14 }}>↓ 所以</Text>
+      <Text style={{ fontSize: 30, color: '#1F3A34', lineHeight: 1.7 }}>皇权不下县</Text>
+      <Text style={{ fontSize: 24, color: '#B4552D', marginLeft: 14 }}>↓ 于是</Text>
+      <Text style={{ fontSize: 30, color: '#1F3A34', lineHeight: 1.7 }}>无为而治</Text>
+    </Box>
+    <Text style={{ fontSize: 26, color: '#6B6B6B', marginTop: 22 }}>这两篇是同一种论证形态：从条件推出结果。所以用同一种读法。</Text>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 4 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>16/19</Text>
+  </Box>
+</Slide>

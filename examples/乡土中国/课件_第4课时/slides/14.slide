@@ -1,0 +1,21 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>如果张家不让呢</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>追问</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+    <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#1F3A34' }}>如果张家不让呢？</Text>
+    <Box style={{ marginTop: 26, flexDirection: 'column' }}>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.2 }}>一问：谁会来管？</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.2 }}>二问：按什么管？</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.2 }}>三问：管的人靠什么让人服？</Text>
+    </Box>
+    <Text style={{ fontSize: 27, color: '#B4552D', marginTop: 24 }}>三问答完，这个故事就从“美德”变成了“结构”。</Text>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 4 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>14/19</Text>
+  </Box>
+</Slide>

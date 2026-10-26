@@ -281,15 +281,16 @@ git clone https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 取最新
 git clone https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 取指定版本
-git clone --branch v2.4.2 --depth 1 \
+git clone --branch v2.4.3 --depth 1 \
   https://github.com/zhshy/gaozhong-yuwen-design-orchestrator.git
 # 不装 git，也可直接取该版本的 tar 包
-curl -LO https://codeload.github.com/zhshy/gaozhong-yuwen-design-orchestrator/tar.gz/refs/tags/v2.4.2
+curl -LO https://codeload.github.com/zhshy/gaozhong-yuwen-design-orchestrator/tar.gz/refs/tags/v2.4.3
 ```
 
 - **关于 `v2.0.0` 这个主版本号**：它标记的是**交付形态的一次扩充**（从"四份 Word ＋ 课件"扩为"另一条独立的精品课交付链"），不是普通模式的行为改变。**`普通备课` 路径逐字向后兼容**——七步流程、四份 Word、课件两阶段、红线 1–16 **一字未动**；历史调用结果不受影响。仍按 `v1.11.0` 使用的用户在升级前无需改任何习惯。
 - **核对手上副本的版本**：装进 `~/.workbuddy/skills/` 的副本不带 `.git`，看 [`SKILL.md`](SKILL.md) 前几行的 `version:` 字段即为当前版本；若取的是 git 检出，用 `git -C <repo> describe --tags`。
-- **引用时带上版本号**：本技能与五个底层技能、以及生成通道 `workbuddy-docx` / `workbuddy-pptx` 配套使用，建议记成"总控 v2.4.2 + 课标库 v2.0.0"这样的组合——**不同版本的流程步数与红线条数不同**（`v1.x` 为 16 条、`v2.0.0` 起为 26 条、`v2.1.0` 起为 27 条），混用会产出不一致的结果。
+- **引用时带上版本号**：本技能与五个底层技能、以及生成通道 `workbuddy-docx` / `workbuddy-pptx` 配套使用，建议记成"总控 v2.4.3 + 课标库 v2.0.0"这样的组合——**不同版本的流程步数与红线条数不同**（`v1.x` 为 16 条、`v2.0.0` 起为 26 条、`v2.1.0` 起为 27 条），混用会产出不一致的结果。
+- **关于 `v2.4.3`**：《乡土中国》示例补全第 2–5 课时（三次推进课＋一次交流课），含单元整体设计 Word，五课时完整可执行。
 - **关于 `v2.4.2`**：新增第二份完整示例 `examples/乡土中国/`（整本书阅读·导读课·1 课时·学术著作），含四种读法、十四篇分派表、五周进度表与 19 页课件。\n- **关于 `v2.4.1`**：《声声慢》示例按新角度整篇重做（分层＋语序／语码／声情＋反面评价），验证角度换血后能跑出什么。
 - **关于 `v2.4.0`**：新增古诗词鉴赏八个角度（`references/poetry-appreciation-angles.md`，源自叶嘉莹／傅庚生／唐圭璋，只取可检查部分），第 2 步按篇目加载、第 3 步加"教学点不得只落技法层"一条检查。
 - **关于 `v2.3.3`**：示例目录只保留《声声慢》，`examples/劝学/` 整目录移除（含精品课示例，可从 `v2.3.2` 标签取回），相关引用同步清理。

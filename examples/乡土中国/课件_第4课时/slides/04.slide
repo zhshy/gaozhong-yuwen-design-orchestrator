@@ -1,0 +1,29 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>今天只做三件事</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>七篇的安排</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ flexDirection: 'row', height: 472, alignItems: 'center' }}>
+    <Box style={{ flex: 1, marginRight: 18, padding: 26, background: 'rgba(31,58,52,0.06)', height: 310, flexDirection: 'column' }}>
+      <Text style={{ fontSize: 25, color: '#B4552D' }}>精处理 · 33 分钟</Text>
+      <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1F3A34', marginTop: 14, lineHeight: 1.5 }}>8 礼治秩序（分维）&#10;9 无讼（找例）&#10;10–11 权力（接龙）</Text>
+      <Text style={{ fontSize: 24, color: '#1F3A34', lineHeight: 1.7, marginTop: 12 }}>三篇做透，每篇一种读法</Text>
+    </Box>
+    <Box style={{ flex: 1, marginRight: 18, padding: 26, background: 'rgba(31,58,52,0.06)', height: 310, flexDirection: 'column' }}>
+      <Text style={{ fontSize: 25, color: '#B4552D' }}>快速核对 · 8 分钟</Text>
+      <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1F3A34', marginTop: 14, lineHeight: 1.5 }}>12 血缘和地缘&#10;13 名实分离&#10;14 从欲望到需要</Text>
+      <Text style={{ fontSize: 24, color: '#1F3A34', lineHeight: 1.7, marginTop: 12 }}>每篇一句话报读法与理由</Text>
+    </Box>
+    <Box style={{ flex: 1, padding: 26, background: 'rgba(31,58,52,0.06)', height: 310, flexDirection: 'column' }}>
+      <Text style={{ fontSize: 25, color: '#B4552D' }}>修订 · 4 分钟</Text>
+      <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1F3A34', marginTop: 14 }}>只改一处</Text>
+      <Text style={{ fontSize: 24, color: '#1F3A34', lineHeight: 1.7, marginTop: 12 }}>分派表上被说服的那一处</Text>
+    </Box>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 4 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>04/19</Text>
+  </Box>
+</Slide>

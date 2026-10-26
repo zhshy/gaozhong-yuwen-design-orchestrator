@@ -1,0 +1,29 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>三类分开对待</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>对照</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ flexDirection: 'row', height: 472, alignItems: 'center' }}>
+    <Box style={{ flex: 1, marginRight: 16, padding: 24, background: 'rgba(31,58,52,0.06)', height: 300, flexDirection: 'column' }}>
+      <Text style={{ fontSize: 27, fontWeight: 'bold', color: '#1F3A34' }}>真说不通</Text>
+      <Text style={{ fontSize: 26, color: '#B4552D', marginTop: 12 }}>可以写</Text>
+      <Text style={{ fontSize: 25, color: '#1F3A34', lineHeight: 1.9, marginTop: 12 }}>写清是哪一步不成立</Text>
+    </Box>
+    <Box style={{ flex: 1, marginRight: 16, padding: 24, background: 'rgba(31,58,52,0.06)', height: 300, flexDirection: 'column' }}>
+      <Text style={{ fontSize: 27, fontWeight: 'bold', color: '#1F3A34' }}>误读</Text>
+      <Text style={{ fontSize: 26, color: '#B4552D', marginTop: 12 }}>要改</Text>
+      <Text style={{ fontSize: 25, color: '#1F3A34', lineHeight: 1.9, marginTop: 12 }}>改掉，别舍不得</Text>
+    </Box>
+    <Box style={{ flex: 1, padding: 24, background: 'rgba(31,58,52,0.06)', height: 300, flexDirection: 'column' }}>
+      <Text style={{ fontSize: 27, fontWeight: 'bold', color: '#1F3A34' }}>时代变化</Text>
+      <Text style={{ fontSize: 26, color: '#B4552D', marginTop: 12 }}>要举证</Text>
+      <Text style={{ fontSize: 25, color: '#1F3A34', lineHeight: 1.9, marginTop: 12 }}>一个现象，说清不符在哪</Text>
+    </Box>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 5 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>11/16</Text>
+  </Box>
+</Slide>

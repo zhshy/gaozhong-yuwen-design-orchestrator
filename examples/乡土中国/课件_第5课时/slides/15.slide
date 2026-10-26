@@ -1,0 +1,22 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>单元四件产出</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>自查</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1F3A34' }}>单元四件产出（今天交齐）</Text>
+    <Box style={{ marginTop: 20, flexDirection: 'column' }}>
+      <Text style={{ fontSize: 27, color: '#1F3A34', lineHeight: 2.0 }}>一、分派表（14 篇 × 读法，含改过的一处）</Text>
+      <Text style={{ fontSize: 27, color: '#1F3A34', lineHeight: 2.0 }}>二、概念卡 16 张（每张“一个反例”都不空）</Text>
+      <Text style={{ fontSize: 27, color: '#1F3A34', lineHeight: 2.0 }}>三、结构图（箭头都有字）</Text>
+      <Text style={{ fontSize: 27, color: '#1F3A34', lineHeight: 2.0 }}>四、读书报告（有一处“这里说不通”）</Text>
+    </Box>
+    <Text style={{ fontSize: 26, color: '#B4552D', marginTop: 20 }}>缺一件，本周内补齐。</Text>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 5 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>15/16</Text>
+  </Box>
+</Slide>

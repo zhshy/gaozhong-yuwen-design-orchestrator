@@ -1,0 +1,21 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>四个维度提示</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>任务一</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1F3A34' }}>四个维度提示（想不到时用）</Text>
+    <Box style={{ marginTop: 22, flexDirection: 'column' }}>
+      <Text style={{ fontSize: 27, color: '#1F3A34', lineHeight: 2.0, background: 'rgba(31,58,52,0.06)', padding: 12 }}>一、规矩是什么（礼也是一套规矩）</Text>
+      <Text style={{ fontSize: 27, color: '#1F3A34', lineHeight: 2.0, background: 'rgba(31,58,52,0.06)', padding: 12, marginTop: 10 }}>二、靠谁执行——国家，还是每个人自己</Text>
+      <Text style={{ fontSize: 27, color: '#1F3A34', lineHeight: 2.0, background: 'rgba(31,58,52,0.06)', padding: 12, marginTop: 10 }}>三、力量从哪来——传统与教化，还是强制</Text>
+      <Text style={{ fontSize: 27, color: '#1F3A34', lineHeight: 2.0, background: 'rgba(31,58,52,0.06)', padding: 12, marginTop: 10 }}>四、代价是什么（今天不填）</Text>
+    </Box>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 4 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>09/19</Text>
+  </Box>
+</Slide>

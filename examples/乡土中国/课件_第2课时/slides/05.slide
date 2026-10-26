@@ -1,0 +1,21 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Image src="../课件/assets/bg_fields.jpg" style={{ position: 'absolute', top: -40, left: -64, width: 1408, height: 800, objectFit: 'cover' }} />
+  <Box style={{ position: 'absolute', top: -40, left: -64, width: 1408, height: 800, background: 'rgba(245,241,230,0.62)', zIndex: 1 }} />
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>原文：乡土本色</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>第 1 篇</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+    <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.0 }}>从基层上看去，中国社会是乡土性的。</Text>
+    <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.0 }}>乡下人离不了泥土，因为在乡下住，种地是最普遍的谋生办法。</Text>
+    <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.0 }}>土气是因为不流动而发生的。</Text>
+    <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.0 }}>以农为生的人，世代定居是常态，迁移是变态。</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B', marginTop: 18 }}>——《乡土本色》，第 1 篇</Text>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 2 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>05/17</Text>
+  </Box>
+</Slide>

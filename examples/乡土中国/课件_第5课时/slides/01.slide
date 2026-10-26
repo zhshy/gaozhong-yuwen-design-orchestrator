@@ -1,0 +1,14 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Image src="../课件/assets/bg_pages.jpg" style={{ position: 'absolute', top: 0, left: 0, width: 1280, height: 720, objectFit: 'cover' }} />
+  <Box style={{ height: 560, flexDirection: 'row', alignItems: 'center', position: 'relative', zIndex: 5 }}>
+    <Box style={{ width: 700, background: 'rgba(245,241,230,0.9)', padding: '44px 36px 44px 32px', flexDirection: 'column', borderLeft: '6px solid #B4552D' }}>
+      <Text style={{ fontSize: 56, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.3 }}>《乡土中国》</Text>
+      <Text style={{ fontSize: 34, color: '#1F3A34', marginTop: 14 }}>第 5 课时 · 交流课</Text>
+      <Text style={{ fontSize: 30, color: '#B4552D', marginTop: 26 }}>读书报告：互评与定稿</Text>
+    </Box>
+  </Box>
+  <Box style={{ height: 46, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5, background: 'rgba(245,241,230,0.92)', paddingLeft: 12, paddingRight: 12 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>统编版必修上 · 第五单元</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>01/16</Text>
+  </Box>
+</Slide>

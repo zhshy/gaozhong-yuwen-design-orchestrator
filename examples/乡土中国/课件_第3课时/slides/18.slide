@@ -1,0 +1,27 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>作业</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>三层</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+    <Box style={{ padding: 15, background: 'rgba(31,58,52,0.06)', marginBottom: 10 }}>
+      <Text style={{ fontSize: 26, color: '#B4552D' }}>基础 · 全员</Text>
+      <Text style={{ fontSize: 26, color: '#1F3A34', lineHeight: 1.8, marginTop: 6 }}>读 8–9 篇，各做一张概念卡；结构图定稿（箭头必须有字）</Text>
+    </Box>
+    <Box style={{ padding: 15, background: 'rgba(31,58,52,0.06)', marginBottom: 10 }}>
+      <Text style={{ fontSize: 26, color: '#B4552D' }}>提高 · 自选</Text>
+      <Text style={{ fontSize: 26, color: '#1F3A34', lineHeight: 1.8, marginTop: 6 }}>四维表每一维加一句“这一维今天还成立吗”</Text>
+    </Box>
+    <Box style={{ padding: 15, background: 'rgba(31,58,52,0.06)' }}>
+      <Text style={{ fontSize: 26, color: '#B4552D' }}>拓展 · 自选</Text>
+      <Text style={{ fontSize: 26, color: '#1F3A34', lineHeight: 1.8, marginTop: 6 }}>找一个当代的“圈”（微信群、家族群），用差序格局解释，写出不符合的地方</Text>
+    </Box>
+    <Text style={{ fontSize: 26, color: '#6B6B6B', marginTop: 20 }}>下周：礼治为什么长在差序格局上——看这张图上那条线。</Text>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 3 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>18/18</Text>
+  </Box>
+</Slide>

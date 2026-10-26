@@ -1,0 +1,25 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>判据：箭头必须有字</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>读法三</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ flexDirection: 'row', height: 472, alignItems: 'center' }}>
+    <Box style={{ width: 430, marginRight: 30, flexDirection: 'column' }}>
+      <Image src="../课件/assets/img_waves.jpg" style={{ width: 430, height: 290, objectFit: 'cover' }} />
+      <Text style={{ fontSize: 24, color: '#6B6B6B', marginTop: 10 }}>水波纹 · 对应原文“一圈圈推出去的波纹”</Text>
+    </Box>
+    <Box style={{ flex: 1, flexDirection: 'column' }}>
+      <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1F3A34' }}>判据：箭头必须有字</Text>
+      <Text style={{ fontSize: 27, color: '#1F3A34', lineHeight: 2.0, marginTop: 16 }}>己 → 家：是“生在其中”</Text>
+      <Text style={{ fontSize: 27, color: '#1F3A34', lineHeight: 2.0 }}>家 → 族：是“沿父系扩大”</Text>
+      <Text style={{ fontSize: 27, color: '#1F3A34', lineHeight: 2.0 }}>族 → 乡：是“聚村而居”</Text>
+      <Text style={{ fontSize: 27, color: '#B4552D', lineHeight: 2.0, marginTop: 10 }}>没字的箭头等于没画。</Text>
+    </Box>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 3 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>08/18</Text>
+  </Box>
+</Slide>

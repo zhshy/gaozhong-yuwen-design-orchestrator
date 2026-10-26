@@ -1,0 +1,23 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>从内到外五层</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>任务一</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1F3A34' }}>从内到外，这几层必须标出来：</Text>
+    <Box style={{ marginTop: 24, flexDirection: 'column' }}>
+      <Text style={{ fontSize: 29, color: '#1F3A34', lineHeight: 1.85 }}>己 —— 圈的中心，永远是“自己”</Text>
+      <Text style={{ fontSize: 29, color: '#1F3A34', lineHeight: 1.85 }}>家 —— 沿着父系推出去</Text>
+      <Text style={{ fontSize: 29, color: '#1F3A34', lineHeight: 1.85 }}>族 —— 功能复杂，是个事业组织</Text>
+      <Text style={{ fontSize: 29, color: '#1F3A34', lineHeight: 1.85 }}>乡 —— 聚村而居</Text>
+      <Text style={{ fontSize: 29, color: '#1F3A34', lineHeight: 1.85 }}>天下 —— 推己及人推到最外</Text>
+    </Box>
+    <Text style={{ fontSize: 26, color: '#B4552D', marginTop: 20 }}>每一层与上一层之间的箭头，写清是什么关系。</Text>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 3 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>07/18</Text>
+  </Box>
+</Slide>

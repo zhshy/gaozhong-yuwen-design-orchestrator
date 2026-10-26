@@ -1,0 +1,25 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>两栏表</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>任务二</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+    <Box style={{ flexDirection: 'row', height: 60, alignItems: 'center', borderBottom: '2px solid #B4552D' }}>
+      <Text style={{ width: 220, fontSize: 26, fontWeight: 'bold', color: '#1F3A34' }}>比什么</Text>
+      <Text style={{ flex: 1, fontSize: 26, fontWeight: 'bold', color: '#1F3A34' }}>要驳的说法</Text>
+      <Text style={{ flex: 1, fontSize: 26, fontWeight: 'bold', color: '#1F3A34' }}>费孝通的说法</Text>
+    </Box>
+    <Box style={{ flexDirection: 'row', height: 300, alignItems: 'center' }}>
+      <Text style={{ width: 220, fontSize: 24, color: '#6B6B6B' }}>（你来写）</Text>
+      <Text style={{ flex: 1, fontSize: 24, color: '#6B6B6B' }}></Text>
+      <Text style={{ flex: 1, fontSize: 24, color: '#6B6B6B' }}></Text>
+    </Box>
+    <Text style={{ fontSize: 26, color: '#B4552D' }}>提醒：先写左栏“比什么”，再填两边。空着“比什么”的表不算表。</Text>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 2 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>11/17</Text>
+  </Box>
+</Slide>

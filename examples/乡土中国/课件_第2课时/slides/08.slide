@@ -1,0 +1,28 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>任务一：把六句接成一条链</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>独立＋互看</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ flexDirection: 'row', height: 472, alignItems: 'center' }}>
+    <Box style={{ flex: 1, marginRight: 30, flexDirection: 'column' }}>
+      <Text style={{ fontSize: 30, color: '#1F3A34', lineHeight: 1.5 }}>① 乡土性的</Text>
+      <Text style={{ fontSize: 24, color: '#B4552D', marginLeft: 12 }}>↓（　　）</Text>
+      <Text style={{ fontSize: 30, color: '#1F3A34', lineHeight: 1.5 }}>② 离不了泥土</Text>
+      <Text style={{ fontSize: 24, color: '#B4552D', marginLeft: 12 }}>↓（　　）</Text>
+      <Text style={{ fontSize: 30, color: '#1F3A34', lineHeight: 1.5 }}>③ 不流动</Text>
+      <Text style={{ fontSize: 24, color: '#B4552D', marginLeft: 12 }}>↓（　　）</Text>
+      <Text style={{ fontSize: 30, color: '#1F3A34', lineHeight: 1.5 }}>④ 熟人社会</Text>
+    </Box>
+    <Box style={{ width: 420, padding: 24, background: 'rgba(31,58,52,0.06)', flexDirection: 'column' }}>
+      <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1F3A34' }}>小组互看</Text>
+      <Text style={{ fontSize: 26, color: '#1F3A34', lineHeight: 1.9, marginTop: 12 }}>找出对方链上“填不出因果词”的那个箭头。</Text>
+      <Text style={{ fontSize: 26, color: '#B4552D', lineHeight: 1.9, marginTop: 12 }}>两个人的断点不一定在同一处。</Text>
+    </Box>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 2 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>08/17</Text>
+  </Box>
+</Slide>

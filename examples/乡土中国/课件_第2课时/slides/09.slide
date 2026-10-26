@@ -1,0 +1,24 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>两种常见问题</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>对照</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ flexDirection: 'row', height: 472, alignItems: 'center' }}>
+    <Box style={{ flex: 1, marginRight: 18, padding: 28, background: 'rgba(180,85,45,0.08)', height: 330, flexDirection: 'column' }}>
+      <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#B4552D' }}>断了的链</Text>
+      <Text style={{ fontSize: 26, color: '#1F3A34', lineHeight: 2.0, marginTop: 16 }}>从“乡土性”直接跳到“不流动”，中间少了一环。</Text>
+      <Text style={{ fontSize: 26, color: '#1F3A34', lineHeight: 2.0, marginTop: 8 }}>这一环是什么？往书里找。</Text>
+    </Box>
+    <Box style={{ flex: 1, padding: 28, background: 'rgba(31,58,52,0.06)', height: 330, flexDirection: 'column' }}>
+      <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1F3A34' }}>全是“然后”的链</Text>
+      <Text style={{ fontSize: 26, color: '#1F3A34', lineHeight: 2.0, marginTop: 16 }}>每句都顺，但只是时间顺序。</Text>
+      <Text style={{ fontSize: 26, color: '#1F3A34', lineHeight: 2.0, marginTop: 8 }}>顺序不等于因果——把它换成“因为”试试。</Text>
+    </Box>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 2 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>09/17</Text>
+  </Box>
+</Slide>

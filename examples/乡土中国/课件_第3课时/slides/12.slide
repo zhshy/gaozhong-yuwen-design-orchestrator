@@ -1,0 +1,21 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>《家族》：差在结构不在人数</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>第 6 篇</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1F3A34' }}>《家族》最容易被读成一句话：</Text>
+    <Text style={{ fontSize: 34, color: '#B4552D', lineHeight: 1.9, marginTop: 18 }}>“中国家庭人多。”</Text>
+    <Box style={{ marginTop: 28, borderLeft: '4px solid #B4552D', paddingLeft: 24 }}>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.0 }}>费孝通说：中西的“家”差的不在人数，在结构。</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.0, marginTop: 8 }}>西洋的家是生育社群，界限分明、功能少；</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.0 }}>中国的家沿父系扩大，是事业组织。</Text>
+    </Box>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 3 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>12/18</Text>
+  </Box>
+</Slide>

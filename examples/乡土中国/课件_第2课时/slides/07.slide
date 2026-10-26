@@ -1,0 +1,21 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>判据</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>读法一</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+    <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#1F3A34' }}>判据：这个箭头能换成“因为”吗？</Text>
+    <Box style={{ marginTop: 30, flexDirection: 'column' }}>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.0 }}>能换 → 前后是因果，链是通的</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.0 }}>只能写“然后” → 前后是时间顺序，不是因果</Text>
+      <Text style={{ fontSize: 28, color: '#B4552D', lineHeight: 2.0 }}>什么也填不出 → 作者在这里跳了一步，断点就在这</Text>
+    </Box>
+    <Text style={{ fontSize: 26, color: '#6B6B6B', marginTop: 26 }}>断点不是你读得差，是作者留的缝——质疑就从这里进。</Text>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 2 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>07/17</Text>
+  </Box>
+</Slide>

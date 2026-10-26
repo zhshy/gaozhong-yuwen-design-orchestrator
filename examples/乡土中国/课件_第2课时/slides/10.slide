@@ -1,0 +1,10 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Image src="../课件/assets/bg_village.jpg" style={{ position: 'absolute', top: 0, left: 0, width: 1280, height: 720, objectFit: 'cover' }} />
+  <Box style={{ height: 640, flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-end', position: 'relative', zIndex: 5 }}>
+    <Box style={{ flexDirection: 'column', alignItems: 'flex-end', background: 'rgba(245,241,230,0.84)', padding: '32px 28px' }}>
+      <Text style={{ fontSize: 26, color: '#B4552D', letterSpacing: 4 }}>任 务 二</Text>
+      <Text style={{ fontSize: 60, fontWeight: 'bold', color: '#1F3A34', marginTop: 12 }}>给“愚”分两栏</Text>
+      <Text style={{ fontSize: 30, color: '#1F3A34', marginTop: 20 }}>换个问法：要驳的，和他自己说的</Text>
+    </Box>
+  </Box>
+</Slide>

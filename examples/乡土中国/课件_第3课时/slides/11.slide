@@ -1,0 +1,20 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>判据：同一把尺子</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>读法二</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+    <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#1F3A34' }}>判据：同一把尺子量两边</Text>
+    <Box style={{ marginTop: 28, borderLeft: '4px solid #B4552D', paddingLeft: 24 }}>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.0 }}>这一维，团体格局那边填得出吗？</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.0 }}>填不出，这一维就不能用——它不属于“家”的比较。</Text>
+    </Box>
+    <Text style={{ fontSize: 27, color: '#6B6B6B', marginTop: 26 }}>备用的四个维度：界限 / 单位 / 中心 / 道德依据。</Text>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 3 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>11/18</Text>
+  </Box>
+</Slide>

@@ -1,0 +1,20 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>回到接龙：第 7 篇</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>任务三</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+    <Text style={{ fontSize: 30, color: '#1F3A34', lineHeight: 2.0 }}>画完圈、分完维，第 7 篇《男女有别》换回接龙。</Text>
+    <Text style={{ fontSize: 30, color: '#B4552D', lineHeight: 2.0, marginTop: 10 }}>为什么？因为它又在往前推了。</Text>
+    <Box style={{ marginTop: 26, borderLeft: '4px solid #B4552D', paddingLeft: 24 }}>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.0 }}>三个词：稳定 / 效率 / 排斥私情</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.0 }}>接成一条链，箭头填因果词。</Text>
+    </Box>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 3 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>14/18</Text>
+  </Box>
+</Slide>

@@ -1,0 +1,20 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>关键一问</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>任务一</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+  <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+    <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#1F3A34' }}>关键一问</Text>
+    <Text style={{ fontSize: 44, fontWeight: 'bold', color: '#B4552D', lineHeight: 1.6, marginTop: 20 }}>礼治有没有规矩？</Text>
+    <Box style={{ marginTop: 30, borderLeft: '4px solid #B4552D', paddingLeft: 24 }}>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.0 }}>礼就是一套规矩。那它和法差在哪一步——</Text>
+      <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 2.0 }}>是有没有规矩，还是谁执行、靠什么执行？</Text>
+    </Box>
+  </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 第 4 课时</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>10/19</Text>
+  </Box>
+</Slide>
