@@ -1,0 +1,29 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>今天做三件事</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>任务总览</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+    <Box style={{ flexDirection: 'row', height: 472, alignItems: 'center' }}>
+      <Box style={{ flex: 1, marginRight: 20, padding: 28, background: 'rgba(31,58,52,0.06)', height: 320, flexDirection: 'column' }}>
+        <Text style={{ fontSize: 26, color: '#B4552D' }}>任务一 · 18 分钟</Text>
+        <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#1F3A34', marginTop: 16 }}>四读一段</Text>
+        <Text style={{ fontSize: 26, color: '#1F3A34', lineHeight: 1.8, marginTop: 16 }}>同一段原文，四种读法各读一遍</Text>
+      </Box>
+      <Box style={{ flex: 1, marginRight: 20, padding: 28, background: 'rgba(31,58,52,0.06)', height: 320, flexDirection: 'column' }}>
+        <Text style={{ fontSize: 26, color: '#B4552D' }}>任务二 · 10 分钟</Text>
+        <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#1F3A34', marginTop: 16 }}>分派十四篇</Text>
+        <Text style={{ fontSize: 26, color: '#1F3A34', lineHeight: 1.8, marginTop: 16 }}>给每一篇配一种读法，说清凭什么</Text>
+      </Box>
+      <Box style={{ flex: 1, padding: 28, background: 'rgba(31,58,52,0.06)', height: 320, flexDirection: 'column' }}>
+        <Text style={{ fontSize: 26, color: '#B4552D' }}>任务三 · 4 分钟</Text>
+        <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#1F3A34', marginTop: 16 }}>定下计划</Text>
+        <Text style={{ fontSize: 26, color: '#1F3A34', lineHeight: 1.8, marginTop: 16 }}>五周读完，本周读哪三篇</Text>
+      </Box>
+    </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 费孝通</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>04/19</Text>
+  </Box>
+</Slide>

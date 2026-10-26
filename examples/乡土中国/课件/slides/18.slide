@@ -1,0 +1,20 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>小结：四句话</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>回扣主问题</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+    <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 32, color: '#1F3A34', lineHeight: 2.1 }}>接龙看论证，分维看辨析，</Text>
+      <Text style={{ fontSize: 32, color: '#1F3A34', lineHeight: 2.1 }}>画圈看结构，找例看迁移。</Text>
+      <Box style={{ marginTop: 32, borderLeft: '4px solid #B4552D', paddingLeft: 24 }}>
+        <Text style={{ fontSize: 30, color: '#1F3A34', lineHeight: 1.9 }}>十四篇不必用一种读法；</Text>
+        <Text style={{ fontSize: 30, color: '#1F3A34', lineHeight: 1.9 }}>但每一篇，都要有一种读法读得动它。</Text>
+      </Box>
+    </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 费孝通</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>18/19</Text>
+  </Box>
+</Slide>

@@ -1,0 +1,19 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Image src="assets/bg_village.jpg" style={{ position: 'absolute', top: -40, left: -64, width: 1408, height: 800, objectFit: 'cover' }} />
+  <Box style={{ position: 'absolute', top: -40, left: -64, width: 1408, height: 800, background: 'rgba(245,241,230,0.55)', zIndex: 1 }} />
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>学校图书馆的共读角</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>导入</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+    <Box style={{ flexDirection: 'column', justifyContent: 'center', height: 472, width: 720 }}>
+      <Text style={{ fontSize: 30, color: '#1F3A34', lineHeight: 1.9, background: 'rgba(245,241,230,0.72)', padding: 20 }}>图书馆要设一个《乡土中国》共读角。</Text>
+      <Text style={{ fontSize: 30, color: '#1F3A34', lineHeight: 1.9, background: 'rgba(245,241,230,0.72)', padding: 20, marginTop: 16 }}>书架边要贴一张读法指引卡，让下一届学生拿起书就知道怎么读。</Text>
+      <Text style={{ fontSize: 28, color: '#B4552D', lineHeight: 1.8, marginTop: 24 }}>这张卡，你们做。</Text>
+    </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 费孝通</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>02/19</Text>
+  </Box>
+</Slide>

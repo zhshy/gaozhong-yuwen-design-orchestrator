@@ -1,0 +1,19 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>概念卡：五栏</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>每周三张</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+    <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 30, color: '#1F3A34', lineHeight: 2.2 }}>一、术语（书上的原词，不改写）</Text>
+      <Text style={{ fontSize: 30, color: '#1F3A34', lineHeight: 2.2 }}>二、原文定义（抄一句，标篇名页码）</Text>
+      <Text style={{ fontSize: 30, color: '#1F3A34', lineHeight: 2.2 }}>三、我的一句话解释（不许用书上的话）</Text>
+      <Text style={{ fontSize: 30, color: '#1F3A34', lineHeight: 2.2 }}>四、一个例子（哪里像）</Text>
+      <Text style={{ fontSize: 30, color: '#B4552D', lineHeight: 2.2 }}>五、一个反例（哪里不像）——这栏不许空</Text>
+    </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 费孝通</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>17/19</Text>
+  </Box>
+</Slide>

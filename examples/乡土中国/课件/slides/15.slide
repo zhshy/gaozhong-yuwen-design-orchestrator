@@ -1,0 +1,17 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>环节三：定下计划</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>最后 4 分钟</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+    <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 32, color: '#1F3A34', lineHeight: 2.1 }}>读法有了，还得有人真去读。</Text>
+      <Text style={{ fontSize: 32, color: '#1F3A34', lineHeight: 2.1 }}>五周读完，本周读哪三篇，今天写下来。</Text>
+      <Text style={{ fontSize: 28, color: '#B4552D', marginTop: 28 }}>课上只解决两件事：读不下去，读不明白</Text>
+    </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 费孝通</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>15/19</Text>
+  </Box>
+</Slide>

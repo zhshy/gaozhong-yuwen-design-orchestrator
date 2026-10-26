@@ -1,0 +1,35 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>读法二：分维</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>管辨析</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+    <Box style={{ height: 472, flexDirection: 'column', justifyContent: 'center' }}>
+      <Box style={{ flexDirection: 'row', height: 64, alignItems: 'center', borderBottom: '2px solid #B4552D' }}>
+        <Text style={{ width: 200, fontSize: 26, fontWeight: 'bold', color: '#1F3A34' }}>比什么</Text>
+        <Text style={{ flex: 1, fontSize: 26, fontWeight: 'bold', color: '#1F3A34' }}>乡土社会</Text>
+        <Text style={{ flex: 1, fontSize: 26, fontWeight: 'bold', color: '#1F3A34' }}>现代社会</Text>
+      </Box>
+      <Box style={{ flexDirection: 'row', height: 88, alignItems: 'center', borderBottom: '1px solid rgba(31,58,52,0.15)' }}>
+        <Text style={{ width: 200, fontSize: 26, color: '#1F3A34' }}>界限</Text>
+        <Text style={{ flex: 1, fontSize: 26, color: '#1F3A34' }}>可伸缩</Text>
+        <Text style={{ flex: 1, fontSize: 26, color: '#1F3A34' }}>分明</Text>
+      </Box>
+      <Box style={{ flexDirection: 'row', height: 88, alignItems: 'center', borderBottom: '1px solid rgba(31,58,52,0.15)' }}>
+        <Text style={{ width: 200, fontSize: 26, color: '#1F3A34' }}>单位</Text>
+        <Text style={{ flex: 1, fontSize: 26, color: '#1F3A34' }}>家</Text>
+        <Text style={{ flex: 1, fontSize: 26, color: '#1F3A34' }}>团体</Text>
+      </Box>
+      <Box style={{ flexDirection: 'row', height: 88, alignItems: 'center', borderBottom: '1px solid rgba(31,58,52,0.15)' }}>
+        <Text style={{ width: 200, fontSize: 26, color: '#1F3A34' }}>中心</Text>
+        <Text style={{ flex: 1, fontSize: 26, color: '#1F3A34' }}>己</Text>
+        <Text style={{ flex: 1, fontSize: 26, color: '#1F3A34' }}>个人</Text>
+      </Box>
+      <Text style={{ fontSize: 26, color: '#B4552D', marginTop: 18 }}>判据：每格是同一把尺子量两边，一边量不了的维度不算</Text>
+    </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 费孝通</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>08/19</Text>
+  </Box>
+</Slide>

@@ -1,0 +1,14 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Image src="assets/bg_soil.jpg" style={{ position: 'absolute', top: 0, left: 0, width: 1280, height: 720, objectFit: 'cover' }} />
+  <Box style={{ height: 560, flexDirection: 'row', alignItems: 'center', position: 'relative', zIndex: 5 }}>
+    <Box style={{ width: 700, background: 'rgba(245,241,230,0.9)', padding: '44px 36px 44px 32px', flexDirection: 'column', borderLeft: '6px solid #B4552D' }}>
+      <Text style={{ fontSize: 88, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.1 }}>乡土中国</Text>
+      <Text style={{ fontSize: 32, color: '#1F3A34', marginTop: 18 }}>费孝通 · 十四篇文章</Text>
+      <Text style={{ fontSize: 30, color: '#B4552D', marginTop: 26 }}>四种读法，读完七万字</Text>
+    </Box>
+  </Box>
+  <Box style={{ height: 46, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5, background: 'rgba(245,241,230,0.92)', paddingLeft: 12, paddingRight: 12 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>统编版必修上 · 第五单元 · 整本书阅读</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>01/19</Text>
+  </Box>
+</Slide>

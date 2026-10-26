@@ -1,0 +1,29 @@
+<Slide style={{ background: '#F5F1E6', padding: '40px 64px', fontFamily: '宋体' }}>
+  <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', height: 72, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1F3A34', lineHeight: 1.15 }}>读法一：接龙</Text>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>管论证</Text>
+  </Box>
+  <Box style={{ height: 472, marginTop: 20, flexDirection: 'column', position: 'relative', zIndex: 5 }}>
+    <Box style={{ flexDirection: 'row', height: 472, alignItems: 'center' }}>
+      <Box style={{ width: 660, flexDirection: 'column' }}>
+        <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 1.4 }}>乡下人离不了泥土</Text>
+        <Text style={{ fontSize: 24, color: '#B4552D', marginLeft: 12 }}>↓ 因为</Text>
+        <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 1.4 }}>种地是最普遍的谋生办法</Text>
+        <Text style={{ fontSize: 24, color: '#B4552D', marginLeft: 12 }}>↓ 所以</Text>
+        <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 1.4 }}>不流动</Text>
+        <Text style={{ fontSize: 24, color: '#B4552D', marginLeft: 12 }}>↓ 所以</Text>
+        <Text style={{ fontSize: 28, color: '#1F3A34', lineHeight: 1.4 }}>熟人社会</Text>
+      </Box>
+      <Box style={{ flex: 1, marginLeft: 32, padding: 24, background: 'rgba(31,58,52,0.06)', flexDirection: 'column' }}>
+        <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1F3A34' }}>判据</Text>
+        <Text style={{ fontSize: 26, color: '#1F3A34', lineHeight: 1.9, marginTop: 12 }}>每个箭头都能填出</Text>
+        <Text style={{ fontSize: 26, color: '#B4552D', lineHeight: 1.9 }}>因为 / 所以 / 但是 / 于是</Text>
+        <Text style={{ fontSize: 26, color: '#1F3A34', lineHeight: 1.9, marginTop: 12 }}>填不出＝这一步没推出来</Text>
+      </Box>
+    </Box>
+  </Box>
+  <Box style={{ height: 40, marginTop: 12, borderTop: '1px solid rgba(31,58,52,0.2)', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 8, position: 'relative', zIndex: 5 }}>
+    <Text style={{ fontSize: 24, color: '#6B6B6B' }}>《乡土中国》· 费孝通</Text>
+    <Text style={{ fontSize: 24, color: '#B4552D' }}>07/19</Text>
+  </Box>
+</Slide>
