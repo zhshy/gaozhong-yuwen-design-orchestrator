@@ -1,0 +1,46 @@
+<Slide style={{ width: 1280, height: 720, padding: '20px 64px', background: '#F4F1E9', flexDirection: 'column' }}>
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+      <Box style={{ width: 6, height: 40, background: '#9C2E22' }} />
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 40, fontWeight: 'bold', color: '#1C1A17' }}>由物及人</Text>
+    </Box>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>任务三</Text>
+  </Box>
+
+  <Box style={{ height: 540, flexDirection: 'column', justifyContent: 'center', gap: 24 }}>
+    <Box style={{ flexDirection: 'row', gap: 20, height: 120 }}>
+      <Box style={{ flex: 1, background: 'rgba(75,70,63,0.07)', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 10 }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 34, color: '#1C1A17' }}>积土成山</Text>
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 26, color: '#9C2E22' }}>→</Text>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 34, color: '#4B463F' }}>风雨兴焉</Text>
+      </Box>
+      <Box style={{ flex: 1, background: 'rgba(75,70,63,0.07)', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 10 }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 34, color: '#1C1A17' }}>积水成渊</Text>
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 26, color: '#9C2E22' }}>→</Text>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 34, color: '#4B463F' }}>蛟龙生焉</Text>
+      </Box>
+      <Box style={{ flex: 1, background: 'rgba(156,46,34,0.10)', borderTop: '4px solid #9C2E22', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 10 }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 34, fontWeight: 'bold', color: '#9C2E22' }}>积善成德</Text>
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 26, color: '#9C2E22' }}>→</Text>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 34, fontWeight: 'bold', color: '#9C2E22' }}>圣心备焉</Text>
+      </Box>
+    </Box>
+
+    <Box style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 20, height: 76 }}>
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 46, color: '#1C1A17' }}>物</Text>
+      <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 30, color: '#9C2E22' }}>→</Text>
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 46, color: '#1C1A17' }}>物</Text>
+      <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 30, color: '#9C2E22' }}>→</Text>
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 46, fontWeight: 'bold', color: '#9C2E22' }}>人</Text>
+    </Box>
+
+    <Box style={{ alignItems: 'center' }}>
+      <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 30, color: '#4B463F' }}>这三句的顺序，能换吗？</Text>
+    </Box>
+  </Box>
+
+  <Box style={{ height: 40, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>劝学 · 荀子</Text>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>14 / 17</Text>
+  </Box>
+</Slide>

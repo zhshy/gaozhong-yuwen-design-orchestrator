@@ -1,0 +1,22 @@
+<Slide style={{ width: 1280, height: 720, padding: '20px 64px', background: '#F4F1E9', flexDirection: 'column' }}>
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+      <Box style={{ width: 6, height: 40, background: '#9C2E22' }} />
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 40, fontWeight: 'bold', color: '#1C1A17' }}>所以，为什么更有说服力？</Text>
+    </Box>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>小结</Text>
+  </Box>
+
+  <Box style={{ height: 540, flexDirection: 'column', justifyContent: 'center' }}>
+    <Text style={{ fontFamily: 'KaiTi', fontSize: 52, color: '#1C1A17', lineHeight: 1.8 }}>
+      物要变，靠外物；<br />
+      人要变，靠「学」；<br />
+      <span style={{ color: '#9C2E22', fontWeight: 'bold' }}>说物，是为了说人。</span>
+    </Text>
+  </Box>
+
+  <Box style={{ height: 40, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>劝学 · 荀子</Text>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>16 / 17</Text>
+  </Box>
+</Slide>
