@@ -1,0 +1,46 @@
+<Slide style={{ width: 1280, height: 720, padding: '20px 64px', background: '#F4F1E9', flexDirection: 'column' }}>
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+      <Box style={{ width: 6, height: 40, background: '#9C2E22' }} />
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 40, fontWeight: 'bold', color: '#1C1A17' }}>三组对照</Text>
+    </Box>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>任务三</Text>
+  </Box>
+
+  <Box style={{ height: 540, flexDirection: 'column', justifyContent: 'center', gap: 30 }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, height: 132 }}>
+      <Box style={{ flex: 1, height: 132, background: 'rgba(75,70,63,0.07)', alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 34, color: '#4B463F' }}>骐骥一跃，不能十步</Text>
+      </Box>
+      <Text style={{ width: 44, textAlign: 'center', fontFamily: 'Microsoft YaHei', fontSize: 30, color: '#9C2E22' }}>↔</Text>
+      <Box style={{ flex: 1, height: 132, background: 'rgba(156,46,34,0.09)', alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 34, color: '#1C1A17' }}>驽马十驾，功在<span style={{ color: '#9C2E22' }}>不舍</span></Text>
+      </Box>
+    </Box>
+
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, height: 132 }}>
+      <Box style={{ flex: 1, height: 132, background: 'rgba(75,70,63,0.07)', alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 34, color: '#4B463F' }}>锲而舍之，朽木不折</Text>
+      </Box>
+      <Text style={{ width: 44, textAlign: 'center', fontFamily: 'Microsoft YaHei', fontSize: 30, color: '#9C2E22' }}>↔</Text>
+      <Box style={{ flex: 1, height: 132, background: 'rgba(156,46,34,0.09)', alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 34, color: '#1C1A17' }}>锲而不<span style={{ color: '#9C2E22' }}>舍</span>，金石可镂</Text>
+      </Box>
+    </Box>
+
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, height: 132 }}>
+      <Box style={{ flex: 1, height: 132, background: 'rgba(75,70,63,0.07)', alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 34, color: '#4B463F' }}>蟹，用心<span style={{ color: '#9C2E22' }}>躁</span>也</Text>
+      </Box>
+      <Text style={{ width: 44, textAlign: 'center', fontFamily: 'Microsoft YaHei', fontSize: 30, color: '#9C2E22' }}>↔</Text>
+      <Box style={{ flex: 1, height: 132, background: 'rgba(156,46,34,0.09)', alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 34, color: '#1C1A17' }}>蚓，用心<span style={{ color: '#9C2E22' }}>一</span>也</Text>
+      </Box>
+    </Box>
+  </Box>
+
+  <Box style={{ height: 40, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>劝学 · 荀子</Text>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>13 / 17</Text>
+  </Box>
+</Slide>

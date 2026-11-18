@@ -1,0 +1,44 @@
+<Slide style={{ width: 1280, height: 720, padding: '20px 64px', background: '#F4F1E9', flexDirection: 'column' }}>
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+      <Box style={{ width: 6, height: 40, background: '#9C2E22' }} />
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 40, fontWeight: 'bold', color: '#1C1A17' }}>变，靠的是什么</Text>
+    </Box>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>任务一</Text>
+  </Box>
+
+  <Box style={{ height: 540, flexDirection: 'column', justifyContent: 'center', gap: 24 }}>
+    <Box style={{ flexDirection: 'row', gap: 26, height: 160 }}>
+      <Box style={{ flex: 1, background: 'rgba(75,70,63,0.07)', alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 38, color: '#1C1A17' }}>輮使之然也</Text>
+      </Box>
+      <Box style={{ flex: 1, background: 'rgba(75,70,63,0.07)', alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 38, color: '#1C1A17' }}>受绳则直</Text>
+      </Box>
+      <Box style={{ flex: 1, background: 'rgba(75,70,63,0.07)', alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 38, color: '#1C1A17' }}>就砺则利</Text>
+      </Box>
+    </Box>
+
+    <Box style={{ flexDirection: 'row', gap: 26, height: 56, alignItems: 'center' }}>
+      <Box style={{ flex: 1, alignItems: 'center' }}>
+        <Box style={{ width: 2, height: 44, background: 'rgba(28,26,23,0.28)' }} />
+      </Box>
+      <Box style={{ flex: 1, alignItems: 'center' }}>
+        <Box style={{ width: 2, height: 44, background: 'rgba(28,26,23,0.28)' }} />
+      </Box>
+      <Box style={{ flex: 1, alignItems: 'center' }}>
+        <Box style={{ width: 2, height: 44, background: 'rgba(28,26,23,0.28)' }} />
+      </Box>
+    </Box>
+
+    <Box style={{ alignItems: 'center' }}>
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 104, fontWeight: 'bold', color: '#9C2E22', lineHeight: 1.1 }}>外力</Text>
+    </Box>
+  </Box>
+
+  <Box style={{ height: 40, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>劝学 · 荀子</Text>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>08 / 17</Text>
+  </Box>
+</Slide>

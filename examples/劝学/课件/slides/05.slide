@@ -1,0 +1,40 @@
+<Slide style={{ width: 1280, height: 720, padding: '20px 64px', background: '#F4F1E9', flexDirection: 'column' }}>
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+      <Box style={{ width: 6, height: 40, background: '#9C2E22' }} />
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 40, fontWeight: 'bold', color: '#1C1A17' }}>讲给初一同学听：三件事</Text>
+    </Box>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>任务链</Text>
+  </Box>
+
+  <Box style={{ height: 540, flexDirection: 'row', gap: 26 }}>
+    <Box style={{ flex: 1, background: 'rgba(75,70,63,0.06)', padding: '42px 30px', flexDirection: 'column', justifyContent: 'space-between' }}>
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 96, fontWeight: 'bold', color: '#9C2E22', opacity: 0.4, lineHeight: 1 }}>01</Text>
+      <Box>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 44, fontWeight: 'bold', color: '#1C1A17' }}>找喻体</Text>
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 26, color: '#4B463F', marginTop: 14, lineHeight: 1.5 }}>它们的共同点</Text>
+      </Box>
+    </Box>
+
+    <Box style={{ flex: 1, background: 'rgba(75,70,63,0.06)', padding: '42px 30px', flexDirection: 'column', justifyContent: 'space-between' }}>
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 96, fontWeight: 'bold', color: '#9C2E22', opacity: 0.4, lineHeight: 1 }}>02</Text>
+      <Box>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 44, fontWeight: 'bold', color: '#1C1A17' }}>找借力</Text>
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 26, color: '#4B463F', marginTop: 14, lineHeight: 1.5 }}>借什么，得什么</Text>
+      </Box>
+    </Box>
+
+    <Box style={{ flex: 1, background: 'rgba(75,70,63,0.06)', padding: '42px 30px', flexDirection: 'column', justifyContent: 'space-between' }}>
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 96, fontWeight: 'bold', color: '#9C2E22', opacity: 0.4, lineHeight: 1 }}>03</Text>
+      <Box>
+        <Text style={{ fontFamily: 'KaiTi', fontSize: 44, fontWeight: 'bold', color: '#1C1A17' }}>找对照</Text>
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 26, color: '#4B463F', marginTop: 14, lineHeight: 1.5 }}>为什么放在一起</Text>
+      </Box>
+    </Box>
+  </Box>
+
+  <Box style={{ height: 40, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>劝学 · 荀子</Text>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>05 / 17</Text>
+  </Box>
+</Slide>

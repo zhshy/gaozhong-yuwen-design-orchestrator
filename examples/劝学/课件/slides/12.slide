@@ -1,0 +1,34 @@
+<Slide style={{ width: 1280, height: 720, padding: '20px 64px', background: '#F4F1E9', flexDirection: 'column' }}>
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+      <Box style={{ width: 6, height: 40, background: '#9C2E22' }} />
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 40, fontWeight: 'bold', color: '#1C1A17' }}>哪些是正面，哪些是反面？</Text>
+    </Box>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>任务三</Text>
+  </Box>
+
+  <Box style={{ height: 540, flexDirection: 'row', gap: 44, alignItems: 'center' }}>
+    <Box style={{ width: 628, flexDirection: 'column', gap: 20 }}>
+      <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+        <Box style={{ width: 26, height: 3, background: '#9C2E22' }} />
+        <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F', letterSpacing: 2 }}>原文 · 第三段</Text>
+      </Box>
+      <Text style={{ fontFamily: 'KaiTi', fontSize: 28, color: '#1C1A17', lineHeight: 1.8 }}>
+        故不积跬步，无以至千里；<br />
+        不积小流，无以成江海。<br />
+        骐骥一跃，不能十步；<br />
+        驽马十驾，功在不舍。<br />
+        锲而舍之，朽木不折；<br />
+        锲而不舍，金石可镂。<br />
+        ……蚓，用心一也；蟹，用心躁也。
+      </Text>
+    </Box>
+
+    <Image src="assets/img_5_mountain.jpg" style={{ width: 480, height: 436, objectFit: 'cover' }} />
+  </Box>
+
+  <Box style={{ height: 40, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>劝学 · 荀子</Text>
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>12 / 17</Text>
+  </Box>
+</Slide>

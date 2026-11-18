@@ -1,0 +1,20 @@
+<Slide style={{ width: 1280, height: 720, background: '#F4F1E9', position: 'relative', flexDirection: 'column', justifyContent: 'center', padding: '0 96px' }}>
+  <Text style={{ position: 'absolute', right: 40, top: 8, fontFamily: 'KaiTi', fontSize: 460, fontWeight: 'bold', color: '#9C2E22', opacity: 0.055, lineHeight: 1 }}>学</Text>
+
+  <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16, marginBottom: 30 }}>
+    <Box style={{ width: 6, height: 36, background: '#9C2E22' }} />
+    <Text style={{ fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F', letterSpacing: 6 }}>必修上 · 第六单元「学习之道」</Text>
+  </Box>
+
+  <Text style={{ fontFamily: 'KaiTi', fontSize: 116, fontWeight: 'bold', color: '#1C1A17', lineHeight: 1.1, letterSpacing: 10 }}>劝　学</Text>
+
+  <Box style={{ width: 100, height: 4, background: '#9C2E22', marginTop: 28, marginBottom: 28 }} />
+
+  <Text style={{ fontFamily: 'KaiTi', fontSize: 46, color: '#4B463F', letterSpacing: 4 }}>荀　子</Text>
+
+  <Box style={{ position: 'absolute', left: 96, bottom: 68, borderLeft: '4px solid rgba(156,46,34,0.6)', paddingLeft: 22 }}>
+    <Text style={{ fontFamily: 'KaiTi', fontSize: 34, color: '#4B463F', lineHeight: 1.6 }}>学不可以已。</Text>
+  </Box>
+
+  <Text style={{ position: 'absolute', right: 64, bottom: 40, fontFamily: 'Microsoft YaHei', fontSize: 24, color: '#4B463F' }}>01 / 17</Text>
+</Slide>
